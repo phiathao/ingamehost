@@ -75,25 +75,6 @@
                         "text": "- Each Tribe is allowed 5 Terminals per map.\n- 1000 Dino Balls per Map.\n- Map Limit is 50 Tames out per map."
                     }
                 ]
-            },
-            {
-                "layout": 4,
-                "buttontext": "Application",
-                "imageurl": "https://imgur.com/bmiqfEr",
-                "content": [
-                    {
-                        "title": "Ethereal",
-                        "text": "Interested in joining? Submit your application through our official form. We look forward to welcoming you!"
-                    },
-                    {
-                        "title": "Requirements",
-                        "text": "1. Be respectful and follow the rules.\n2. Actively participate in the community.\n3. Have fun and contribute positively!"
-                    },
-                    {
-                        "title": "How to Apply",
-                        "text": "Visit our website or contact us on Discord for the application process."
-                    }
-                ]
             }
         ],
         "links": [
@@ -118,6 +99,6 @@
                 "url": "https://ethdom.discord.com"
             }
         ],
-        "version": 1
+        "version": 2
     }
 }
