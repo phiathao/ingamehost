@@ -8,8 +8,8 @@
             "hideiconafter": 10,
             "iconurl": "https://i.imgur.com/PIjmRBL.png",
             "disableicontext": false,
-            "iconposition": 0,
-            "icontextcolor": 0,
+            "iconposition": 3,
+            "icontextcolor": 5,
             "openonstart": true,
             "openonstartonlynewplayers": true,
             "updateinterval": 24
