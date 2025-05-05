@@ -6,7 +6,7 @@
             "openbutton": 0,
             "hideicon": false,
             "hideiconafter": 10,
-            "iconurl": "https://i.imgur.com/PIjmRBL.png",
+            "iconurl": "https://i.imgur.com/Ny5EW2n.png",
             "disableicontext": false,
             "iconposition": 3,
             "icontextcolor": 5,
@@ -18,7 +18,7 @@
             {
                 "layout": 1,
                 "buttontext": "Welcome",
-                "imageurl": "https://i.imgur.com/bmiqfEr.png",
+                "imageurl": "https://i.imgur.com/QupoeT8.png",
                 "content": [
                     {
                         "title": "Welcome to Ethereal Dominion!",
@@ -29,7 +29,7 @@
             {
                 "layout": 1,
                 "buttontext": "News",
-                "imageurl": "https://i.imgur.com/bmiqfEr.png",
+                "imageurl": "https://i.imgur.com/QupoeT8.png",
                 "content": [
                     {
                         "title": "Latest Updates and Current Issues",
@@ -40,7 +40,7 @@
             {
                 "layout": 1,
                 "buttontext": "Server Rules",
-                "imageurl": "https://i.imgur.com/bmiqfEr.png",
+                "imageurl": "https://i.imgur.com/QupoeT8.png",
                 "content": [
                     {
                         "title": "Game Rules",
