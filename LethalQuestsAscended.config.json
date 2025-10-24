@@ -1,0 +1,337 @@
+//SEE THE COMMENTED_CONFIG.JSON FILE FOR DESCRIPTIONS OF ALL THE SETTINGS AVAILABLE
+//You can add comments of your own to this file now without breaking the plugin
+//Comments should appear at the end of the line, after the setting value or on a line by itself
+{
+  "AccountKey": "", //Can be found by messaging LethalBot "/license list"
+  "AutoRenewLicense": false,
+  "HostLicense": false,
+  "Commands": {
+    "CheckStats": "/stats",
+    "ClaimReward": "/rewards",
+    "CheckQuests": "/quests",
+    "QuestDetails": "/quest",
+    "CheckCompletedQuests": "/completed",
+    "LinkDiscord": "/linkstats"
+  },
+  "General": {
+    "AutoClaimRewards": true,
+    "CryoPodExpirationTime": 1,
+    "CryoBP": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'",
+    "DailyWeeklyAutoWipe": true,
+    "PVPKillNotification": true,
+    "SimpleSpawnerResources": false,
+    "PrimaryMapName": "",
+    "OSDEventCompletionRange": 60,
+    "ElementVeinEventCompletionRange": 60,
+    "TamingEventRange": 60,
+    "EnableHeadshotDetection": true,
+    "EventTrackingRange": 33,
+    "DinoKillRange": 15,
+    "ForceKillRangeForAll": false,
+    "ForcedKillRangeDinos": [
+
+    ]
+  },
+  "DiscordLogging": {
+    "Enabled": false,
+    "KillFeedWebhook": "",
+    "QuestsWebhook": "",
+    "WebhookPrefix": {
+      "Ragnarok": "Ragnarok",
+      "Valguero_WP": "Valguero",
+      "Aberration_WP": "Aberration",
+      "TheCenter": "The Center",
+      "TheIsland_WP": "The Island",
+      "ScorchedEarth_WP": "ScorchedEarth",
+      "Genesis": "Genesis",
+      "Extinction": "Extinction",
+      "CrystalIsles": "CrystalIsles",
+      "Gen2": "Genesis2"
+    }
+  },
+  "HonorSystem": {
+    "Enabled": true,
+    "HonorlessTime": 1800
+  },
+  "BossDinos": [
+    "SpiderL_Character_BP",
+    "Gorilla_Character_BP",
+    "Dragon_Character_BP_Boss",
+    "EndBoss_Character",
+    "Manticore_Character_BP",
+    "Rockwell_Character_BP",
+    "VRMainBoss_Character",
+    "CrystalWyvern_Character_BP",
+    "BossDinopithecus_Character_BP",
+    "Fenrir_Character_BP_Boss"
+  ],
+  "RandomDinoRewards": {
+    "Tier1": []
+  },
+  "RandomItemRewards": {
+    "Tier1": []
+  },
+  "RandomStackableItemRewards": {
+    "Tier1": []
+  },
+  "RandomCommandRewards": {
+    "Tier1": []
+  },
+  "GenericRewards": {
+    "PreventDuplicateRewards": true,
+    "MinRewards": 1,
+    "MaxRewards": 3,
+    "Items": [
+      {
+        "Type": "item",
+        "Amount": 1,
+        "MinQuality": 0,
+        "MaxQuality": 0,
+        "ForceBlueprint": false,
+        "BlueprintChance": 25,
+        "Blueprint": "random"
+      },
+      {
+        "Type": "item",
+        "Amount": 100,
+        "MinQuality": 0,
+        "MaxQuality": 0,
+        "ForceBlueprint": false,
+        "BlueprintChance": 0,
+        "Blueprint": "randomstackable"
+      },
+      {
+        "Type": "dino",
+        "MinLevel": 100,
+        "MaxLevel": 150,
+        "Neutered": false,
+        "Blueprint": "random"
+      }
+    ]
+  },
+  "StatRestrictions": {
+    "KillingMinimumLevel": 80,
+    "TamingMinimumLevel": 80,
+    "TamingAllowWildBabies": false
+  },
+  "CustomTracking": {
+    "DinoKills": {
+    },
+    "DinoTaming": {
+    },
+    "ResourceGathering": {
+    },
+    "Crafted": {
+    },
+    "AutoBases": {
+    },
+    "ServerEvents": {
+    },
+    "StructuresDestroyed": {
+    },
+    "KillsByWeaponTypeDistance": {
+    }
+  },
+  "TamedDinosIgnoreList": [
+    "Blueprint'/Game/PrimalEarth/Items/Raft/Raft_BP.Raft_BP'",
+    "Blueprint'/Game/PrimalEarth/Items/Raft/MotorRaft_BP.MotorRaft_BP'"
+  ],
+  "HarvestDinosIgnoreList": [
+    "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'"
+  ],
+  "WildDinosKillIgnoreList": [
+    "Blueprint'/Game/Genesis/Dinos/Swarms/InsectSwarmChar_BP.InsectSwarmChar_BP'",
+    "Coel_Character_BP",
+    "Salmon_Character_BP",
+    "Dragonfly_Character_BP",
+    "FlyingAnt_Character_BP",
+    "Bee_Character_BP",
+    "Ant_Character_BP"
+  ],
+  "KillingMinimumLevelIngoreList": [
+    "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/Iceworm/Iceworm_Queen_Character_BP.Iceworm_Queen_Character_BP'",
+    "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/LavaGolem/LavaGolem_Character_BP.LavaGolem_Character_BP'"
+  ],
+  "TamingMinimumLevelIngoreList": [
+
+  ],
+  "StructuresDestroyedIgnoreList": [
+
+  ],
+  "Quests": [
+  ],
+  "DailyQuests": [
+  ],
+  "WeeklyQuests": [
+  ],
+  "NameMapping": {
+    "PlayerKills": "Killed Players",
+    "WildDinoKills": "Wild Dinos Killed",
+    "MinutesPlayed": "Minutes Played",
+    "TotalDeaths": "Total Deaths",
+    "TribeScore": "Tribe Score"
+  },
+  "DynamicStats": "MinutesPlayed,TotalDeaths,PlayerKills",
+  "TribeScoreFormula": "((SUM(PlayerKills)*3) - SUM(TotalDeaths) + (SUM(MinutesPlayed)/60)) / COUNT(*)",
+  "UI": {
+    "InformationBoxTitle": "Information",
+    "InformationBoxContent": "",
+    "PlayerStatsTable": "LethalQuestsAscended_stats",
+    "ShowPlayerStats": "TotalDeaths,TamedDinos,WildDinoKills,BossKills,MinutesPlayed",
+    "PlayerTrackersTable": "LethalQuestsAscended_stats",
+    "PlayerLeaderboardTable": "LethalQuestsAscended_stats",
+    "PlayerLeaderboardStats": "TotalDeaths,TamedDinos,WildDinoKills,BossKills,MinutesPlayed",
+    "TribeLeaderboardTable": "LethalQuestsAscended_stats",
+    "TribeLeaderboardStats": "TotalDeaths,TamedDinos,WildDinoKills,BossKills,MinutesPlayed"
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Lethal Quests"
+    },
+    "ExpReward": {
+      "Message": "You received {} experience for completing a quest!"
+    },
+    "ItemReward": {
+      "Message": "You received an Item(s) for completing a quest!"
+    },
+    "CommandReward": {
+      "Message": "'{}' command was given for completing a quest!"
+    },
+    "CryoReward": {
+      "Message": "Reward Dino"
+    },
+    "CryoRewardDescription": {
+      "Message": "Let the dino out to see what you got!"
+    },
+    "KilledByPlayer": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with {WeaponName} from {Distance} meters",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByPlayerHeadshot": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with {WeaponName} from {Distance} meters headshot",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByPlayerDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with {WeaponName} from {Distance} meters!\n```"
+    },
+    "KilledByPlayerHeadshotDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with {WeaponName} from {Distance} meters headshot!\n```"
+    },
+    "KilledByDino": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with a {KillerDinoName}!",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByDinoHeadshot": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with a {KillerDinoName} headshot!",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByDinoDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with a {KillerDinoName}!\n```"
+    },
+    "KilledByDinoHeadshotDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with a {KillerDinoName} headshot!\n```"
+    },
+    "KillerNoHonor": {
+      "Message": "No kill recorded, you are honorless!",
+      "NotificationType": "Chat",
+      "Scale": 1.8,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "VictimNoHonor": {
+      "Message": "Target is honorless and worth no kill credit!",
+      "NotificationType": "Chat",
+      "Scale": 1.8,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "QuestCompleted": {
+      "Message": "{0} completed the quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "DailyQuestCompleted": {
+      "Message": "{0} completed the daily quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "WeeklyQuestCompleted": {
+      "Message": "{0} completed the weekly quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "UnclaimedRewards": {
+      "Message": "You have unclaimed rewards use {} to claim them!",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "ClaimedRewards": {
+      "Message": "You have claimed rewards from '{}'!",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "QuestDetail": {
+      "Message": "{}",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Green"
+    },
+    "Stats": {
+      "Message": "=====Player Stats=====\n{}"
+    },
+    "Quests": {
+      "Message": "=====Current Quests=====\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Red"
+    },
+    "QuestsCompleted": {
+      "Message": "=====Completed Quests=====\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Green"
+    },
+    "DailyQuest": {
+      "Message": "=====Daily Quest===== (Resets in {})\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Yellow"
+    },
+    "WeeklyQuest": {
+      "Message": "=====Weekly Quest===== (Resets in {})\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Blue"
+    },
+    "DoesNotHaveQuest": {
+      "Message": "You do not have access to this quest."
+    },
+    "LinkDiscord": {
+      "Message": "Type the following in our discord\n/LQ register {}"
+    }
+  },
+  "Mysql": {
+    "MysqlHost": "localhost",
+    "MysqlUser": "sqlusername",
+    "MysqlPass": "sqlpassword",
+    "MysqlDB": "mydatabasename",
+    "MysqlPort": 3306
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "AccountKey": "",
+  "AutoRenewLicense": false,
+  "HostLicense": false,
+  "Commands": {
+    "StartEvent": "/start",
+    "StartEventRCON": "ServerEventsAscended.start",
+    "CancelEvent": "/cancel",
+    "CancelEventRCON": "ServerEventsAscended.cancel",
+    "StartRandomEvent": "/startrandom",
+    "StartRandomEventRCON": "ServerEventsAscended.startrandom"
+  },
+  "DiscordLogging": {
+    "Enabled": false,
+    "Webhook": "",
+    "WebhookPrefix": {
+      "Ragnarok": "Ragnarok",
+      "Valguero_WP": "Valguero",
+      "Aberration_WP": "Aberration",
+      "TheCenter": "The Center",
+      "TheIsland_WP": "The Island",
+      "ScorchedEarth_WP": "ScorchedEarth",
+      "Genesis": "Genesis",
+      "Extinction": "Extinction",
+      "CrystalIsles": "CrystalIsles",
+      "Gen2": "Genesis2"
+    }
+  },
+  "UseTekArena": true,
+  "CryoBP": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'",
+  "RequireFullParticipation": false,
+  "RandomDinoRewards": [
+    "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+    "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'"
+  ],
+  "RandomItemRewards": [
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'",
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol'",
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+    "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'"
+  ],
+  "RandomEvents": {
+    "Land": [
+      "Gorilla",
+      "Lava"
+    ],
+    "Air": [
+      "Queen",
+      "Manticore"
+    ],
+    "Any": [
+      "Gorilla",
+      "Lava",
+      "Queen",
+      "Manticore"
+    ]
+  },
+  "RandomEventsLocations": {
+    "Land": {
+      "Ragnarok": [],
+      "Valguero_WP": [],
+      "Aberration_WP": [],
+      "TheCenter": [],
+      "TheIsland_WP": [],
+      "ScorchedEarth_WP": [],
+      "Genesis": [],
+      "Extinction": [],
+      "CrystalIsles": [],
+      "Gen2": [],
+      "LostIsland": [],
+      "Viking_P": []
+    },
+    "Air": {
+      "Ragnarok": [],
+      "Valguero_WP": [],
+      "Aberration_WP": [],
+      "TheCenter": [],
+      "TheIsland_WP": [],
+      "ScorchedEarth_WP": [],
+      "Genesis": [],
+      "Extinction": [],
+      "CrystalIsles": [],
+      "Gen2": [],
+      "LostIsland": [],
+      "Viking_P": []
+    },
+    "Any": {
+      "Ragnarok": [],
+      "Valguero_WP": [],
+      "Aberration_WP": [],
+      "TheCenter": [],
+      "TheIsland_WP": [],
+      "ScorchedEarth_WP": [],
+      "Genesis": [],
+      "Extinction": [],
+      "CrystalIsles": [],
+      "Gen2": [],
+      "LostIsland": [],
+      "Viking_P": []
+    }
+  },
+  "Events": {
+    "Gorilla": {
+      "Label": "Super Gorilla",
+      "AutoCancelAfterXMinutes": 60,
+      "Boss": {
+        "BP": "Blueprint'/Game/PrimalEarth/Dinos/gorilla/Gorilla_Character_BP_Hard.Gorilla_Character_BP_Hard'",
+        "PossibleBuffs": [
+
+        ],
+        "Level": 2000,
+        "MaxHealth": -1,
+        "IncreaseDamageByPercent": 0,
+        "AllowEngramUnlocks": false,
+        "AllowAchievements": false,
+        "AllowStandardItems": false
+      },
+      "Support": {
+        "Enabled": true,
+        "MinLevel": 150,
+        "MaxLevel": 200,
+        "Frequency": 60,
+        "SpawnPerFrequency": 1,
+        "MaxSpawns": 12,
+        "PossibleSpawns": [
+          "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+        ],
+        "PossibleBuffs": [
+
+        ]
+      },
+      "Arena": {
+        "Size": 15000,
+        "Color": "Blue",
+        "TetherBoss": true,
+        "PreventBossTetherHeal": false,
+        "PreventBuilding": true,
+        "PreventFlyers": true,
+        "PreventTekSuitFlying": true,
+        "PreventStuctureDamage": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
+        "EnteringRequiresPermission": [
+          "Default"
+        ],
+        "ForcedExitLocation": "0 0 0" // Leaving as 0's will disable this setting or not including it at all. //You can set coordinates from "CCC" to minus the last 2 numbers to force the location players are put when exiting the arena.
+      },
+      "Reward": {
+        "StaticLoot": [
+          {
+            "Blueprint": "Blueprint'/Game/PrimalEarth/Structures/SupplyCrate_UnderwaterCaveTier3.SupplyCrate_UnderwaterCaveTier3'",
+            "Amount": 5
+          }
+        ],
+        "PerPlayerLoot": [
+          {
+            "Type": "item",
+            "Amount": 1,
+            "MinQuality": 0,
+            "MaxQuality": 0,
+            "ForceBlueprint": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+          },
+          {
+            "Type": "experience",
+            "Amount": 10000.0
+          },
+          {
+            "Type": "points",
+            "Amount": 1000
+          },
+          {
+            "Type": "engram",
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Tek.PrimalItemStructure_Bed_Tek'"
+          },
+          {
+            "Type": "dino",
+            "Level": 150,
+            "Neutered": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+          },
+          {
+            "Type": "dino",
+            "Level": 150,
+            "Neutered": false,
+            "Blueprint": "random"
+          }
+        ]
+      }
+    }
+  },
+  "EventSettings": {
+    "EventWarmup": 10,
+    "EventCooldown": 10,
+    "ShowEventCooldownMessage": true,
+    "DestroyAllStructures": false,
+    "MinPlayerLevel": 1,
+    "PreventBossDamageOutsideArena": true,
+    "AutoCleanupCorpses": false
+  },
+  "EventBalanceSettings": {
+    "Enabled": true,
+    "AllowStatusEffects": false,
+    "ImmuneOutsideDamage": true,
+    "DisablePVP": false,
+    "DisableGrapple": false,
+    "GrappleBPs": [
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_GrapplingHook.PrimalItemAmmo_GrapplingHook'"
+    ],
+    "DisableWeapons": false,
+    "WeaponBPs": [
+      "Blueprint'/Game/Packs/Steampunk/Dinos/JumpingSpider/WebWeapon/WeapJumpingSpider.WeapJumpingSpider'"
+    ],
+    "ShowFloatingDamageText": false,
+    "ReduceDamageByPercent": 90,
+    "Dinos": [
+      "giga"
+    ]
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Server Events Ascended"
+    },
+    "ExpReward": {
+      "Message": "You received {} experience for participating in the event!"
+    },
+    "ItemReward": {
+      "Message": "You received an Item(s) for participating in the event!"
+    },
+    "CommandReward": {
+      "Message": "'{}' command was given for participating in the event!"
+    },
+    "Dismount": {
+      "Message": "Please dismount before starting an event!"
+    },
+    "CryoReward": {
+      "Message": "Reward Dino"
+    },
+    "CryoRewardDescription": {
+      "Message": "Let the dino out to see what you got!"
+    },
+    "EventStarting": {
+      "Message": "'{EventName}' event starts in {TimeLeft} @ {GPS}!",
+      "Scale": 1.0,
+      "DisplayTime": 2.0,
+      "Color": "Red"
+    },
+    "EventStartingDiscord": {
+      "Message": "```\nServer: {WebHookPrefix} - '{EventName}' event starts in {TimeLeft} @ {GPS}!```"
+    },
+    "EventStarted": {
+      "Message": "'{EventName}' event is active now @ {GPS}!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EventAlreadyActive": {
+      "Message": "An event is already active and must be canceled first!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EventEnding": {
+      "Message": "'{EventName}' event is ending in {TimeLeft} @ {GPS}!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EventComplete": {
+      "Message": "'{EventName}' event is now over!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EventCompleteDiscord": {
+      "Message": "```\nServer: {WebHookPrefix} - '{EventName}' event is now over @ {GPS}!```"
+    },
+    "EventCanceled": {
+      "Message": "'{EventName}' event has been canceled!",
+      "Scale": 1.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "EventCanceledDiscord": {
+      "Message": "```\nServer: {WebHookPrefix} - '{EventName}' event has been canceled @ {GPS}!```"
+    },
+    "NoFlyers": {
+      "Message": "No flying in the arena!",
+      "Scale": 1.2,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "NoBuilding": {
+      "Message": "No building in the arena!",
+      "Scale": 1.8,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "NoTekSuit": {
+      "Message": "No Tek Suit flying in the arena!\nRe-equip outside the arena to restore flying ability.",
+      "Scale": 1.2,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventLeavingArenaWarning": {
+      "Message": "Once the boss spawns you will be locked in the arena until you or the boss is dead!",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Yellow"
+    },
+    "PreventLeavingArena": {
+      "Message": "You have entered the boss arena and must fight to the death.",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "PreventEnteringArena": {
+      "Message": "You are not allowed to enter the boss arena.",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ArenaPlayerLimit": {
+      "Message": "Allowed Arena Players {}/{}",
+      "Scale": 1.5,
+      "DisplayTime": 2.0,
+      "Color": "Red"
+    },
+    "ArenaPlayerLimitReached": {
+      "Message": "No more players can enter the arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ArenaDinoLimit": {
+      "Message": "Allowed Arena Dinos {}/{}",
+      "Scale": 1.5,
+      "DisplayTime": 2.0,
+      "Color": "Red"
+    },
+    "ArenaDinoLimitReached": {
+      "Message": "No more dinos can enter the arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "ArenaEnter": {
+      "Message": "You have been teleported into the Arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "ArenaExit": {
+      "Message": "You have been teleported out of the arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Yellow"
+    },
+    "PassengerSeats": {
+      "Message": "Passenger Seats must be emptry to enter the arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    },
+    "NoCarry": {
+      "Message": "Unable to carry players/dinos into the arena!",
+      "Scale": 1.5,
+      "DisplayTime": 5.0,
+      "Color": "Red"
+    }
+  }
+}
