@@ -1,4 +1,5 @@
 {
+  "version": "1",
   "Mysql": {
     "UseMysql": false,
     "MysqlHost": "localhost",

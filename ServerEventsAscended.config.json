@@ -1,4 +1,5 @@
 {
+  "version": "1",
   "AccountKey": "",
   "AutoRenewLicense": false,
   "HostLicense": false,
@@ -151,7 +152,7 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0" // Leaving as 0's will disable this setting or not including it at all. //You can set coordinates from "CCC" to minus the last 2 numbers to force the location players are put when exiting the arena.
+        "ForcedExitLocation": "0 0 0"
       },
       "Reward": {
         "StaticLoot": [

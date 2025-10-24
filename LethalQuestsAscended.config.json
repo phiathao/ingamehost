@@ -1,8 +1,6 @@
-//SEE THE COMMENTED_CONFIG.JSON FILE FOR DESCRIPTIONS OF ALL THE SETTINGS AVAILABLE
-//You can add comments of your own to this file now without breaking the plugin
-//Comments should appear at the end of the line, after the setting value or on a line by itself
 {
-  "AccountKey": "", //Can be found by messaging LethalBot "/license list"
+  "version": "1",
+  "AccountKey": "",
   "AutoRenewLicense": false,
   "HostLicense": false,
   "Commands": {
