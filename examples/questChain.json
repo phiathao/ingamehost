@@ -3,11 +3,11 @@
     {
       "ID": 100,
       "Name": "01 - Craft Stone Hatchet",
-      "Description": "Craft {Hatchet}/1 Stone Hatchet",
+      "Description": "Craft {StoneHatchet}/1 Stone Stone",
       "PriorQuestID": 0,
       "PermissionGroup": "Default",
       "Requirements": {
-        "Hatchet": 1
+        "StoneHatchet": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -32,11 +32,11 @@
     {
       "ID": 101,
       "Name": "02 - Craft Stone Pickaxe",
-      "Description": "Craft {Pick}/1 Stone Pickaxe",
+      "Description": "Craft {StonePick}/1 Stone Pickaxe",
       "PriorQuestID": 100,
       "PermissionGroup": "Default",
       "Requirements": {
-        "Pick": 1
+        "StonePick": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -242,12 +242,12 @@
     },
     {
       "ID": 108,
-      "Name": "09 - Hunt a Doedic",
-      "Description": "Kill {DoedicKills}/1 Doedic",
+      "Name": "09 - Hunt a Doedicurus",
+      "Description": "Kill {DoedicurusKills}/1 Doedicurus",
       "PriorQuestID": 107,
       "PermissionGroup": "Default",
       "Requirements": {
-        "DoedicKills": 1
+        "DoedicurusKills": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -271,12 +271,12 @@
     },
     {
       "ID": 109,
-      "Name": "10 - Tame a Doedic",
-      "Description": "Tame {DoedicTame}/1 Doedic",
+      "Name": "10 - Tame a Doedicurus",
+      "Description": "Tame {DoedicurusTame}/1 Doedicurus",
       "PriorQuestID": 108,
       "PermissionGroup": "Default",
       "Requirements": {
-        "DoedicTame": 1
+        "DoedicurusTame": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -300,12 +300,12 @@
     },
     {
       "ID": 110,
-      "Name": "11 - Hunt an Anky",
-      "Description": "Kill {AnkyKills}/1 Ankylosaurus",
+      "Name": "11 - Hunt an Ankylosaurus",
+      "Description": "Kill {AnkylosaurusKills}/1 Ankylosaurus",
       "PriorQuestID": 109,
       "PermissionGroup": "Default",
       "Requirements": {
-        "AnkyKills": 1
+        "AnkylosaurusKills": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -329,12 +329,12 @@
     },
     {
       "ID": 111,
-      "Name": "12 - Tame an Anky",
-      "Description": "Tame {AnkyTame}/1 Ankylosaurus",
+      "Name": "12 - Tame an Ankylosaurus",
+      "Description": "Tame {AnkylosaurusTame}/1 Ankylosaurus",
       "PriorQuestID": 110,
       "PermissionGroup": "Default",
       "Requirements": {
-        "AnkyTame": 1
+        "AnkylosaurusTame": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -570,11 +570,11 @@
     {
       "ID": 119,
       "Name": "20 - Hunt Giganotosaurus",
-      "Description": "Kill {GigaKills}/1 Giganotosaurus",
+      "Description": "Kill {GiganotosaurusKills}/1 Giganotosaurus",
       "PriorQuestID": 118,
       "PermissionGroup": "Default",
       "Requirements": {
-        "GigaKills": 1
+        "GiganotosaurusKills": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
@@ -628,11 +628,11 @@
     {
       "ID": 121,
       "Name": "22 - Tame Giganotosaurus",
-      "Description": "Tame {GigaTame}/1 Giganotosaurus",
+      "Description": "Tame {GiganotosaurusTame}/1 Giganotosaurus",
       "PriorQuestID": 120,
       "PermissionGroup": "Default",
       "Requirements": {
-        "GigaTame": 1
+        "GiganotosaurusTame": 1
       },
       "Rewards": {
         "PreventDuplicateRewards": true,
