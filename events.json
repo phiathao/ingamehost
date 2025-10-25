@@ -25,7 +25,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Blue",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -96,7 +96,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -167,7 +167,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Cyan",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -238,7 +238,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Red",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -309,7 +309,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Orange",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -380,7 +380,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Yellow",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -451,10 +451,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Purple",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -522,10 +522,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Magenta",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -593,10 +593,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Pink",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -664,7 +664,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "White",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -735,7 +735,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -806,10 +806,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Gold",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -877,10 +877,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Orange",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -948,10 +948,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Yellow",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -1019,10 +1019,10 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 25000,
+        "Size": 15000,
         "Color": "Brown",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
+        "TetherBoss": false,
+        "PreventBossTetherHeal": true,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
