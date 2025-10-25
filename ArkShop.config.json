@@ -185,14 +185,102 @@
     }
   },
   "ShopItems": {
-    "allengrams": {
+    "otter150": {
       "Type": "command",
       "Description": "150 Otter",
       "Price": 4000,
       "Items": [
         {
-          "Command": "GMSummon Otter_Character_BP_C 225",
+          "Command": "GMSummon Otter_Character_BP_C 150",
           "DisplayAs": "Give survivor an otter"
+        }
+      ]
+    },
+    "dodo150": {
+      "Type": "command",
+      "Description": "150 Dodo",
+      "Price": 500,
+      "Items": [
+        {
+          "Command": "GMSummon Dodo_Character_BP_C 150",
+          "DisplayAs": "Give survivor a dodo"
+        }
+      ]
+    },
+    "lystro150": {
+      "Type": "command",
+      "Description": "150 Lystrosaurus",
+      "Price": 1000,
+      "Items": [
+        {
+          "Command": "GMSummon Lystro_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Lystrosaurus"
+        }
+      ]
+    },
+    "pachy150": {
+      "Type": "command",
+      "Description": "150 Pachycephalosaurus",
+      "Price": 1000,
+      "Items": [
+        {
+          "Command": "GMSummon Pachy_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Pachycephalosaurus"
+        }
+      ]
+    },
+    "hesperornis150": {
+      "Type": "command",
+      "Description": "150 Hesperornis",
+      "Price": 5000,
+      "Items": [
+        {
+          "Command": "GMSummon Hesperornis_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Hesperornis"
+        }
+      ]
+    },
+    "araneo150": {
+      "Type": "command",
+      "Description": "150 Araneo",
+      "Price": 1000,
+      "Items": [
+        {
+          "Command": "GMSummon Araneo_Character_BP_C 150",
+          "DisplayAs": "Give survivor an Araneo"
+        }
+      ]
+    },
+    "compy150": {
+      "Type": "command",
+      "Description": "150 Compy",
+      "Price": 1000,
+      "Items": [
+        {
+          "Command": "GMSummon Compy_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Compy"
+        }
+      ]
+    },
+    "dilophosaurus150": {
+      "Type": "command",
+      "Description": "150 Dilophosaurus",
+      "Price": 4000,
+      "Items": [
+        {
+          "Command": "GMSummon Dilophosaurus_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Dilophosaurus"
+        }
+      ]
+    },
+    "troodon150": {
+      "Type": "command",
+      "Description": "150 Troodon",
+      "Price": 4000,
+      "Items": [
+        {
+          "Command": "GMSummon Troodon_Character_BP_C 150",
+          "DisplayAs": "Give survivor a Troodon"
         }
       ]
     },
