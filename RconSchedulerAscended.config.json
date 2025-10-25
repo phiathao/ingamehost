@@ -11,12 +11,7 @@
   },
   "Commands": [
     {
-      "Command": "broadcast hello world every 1 minute!",
-      "Type": "Minutes",
-      "Schedule": 1
-    },
-    {
-      "Command": "ServerEventsAscended.startrandom",
+      "Command": "ServerEventsAscended.startrandom Any",
       "Type": "Minutes",
       "Schedule": 1
     },
