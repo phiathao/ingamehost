@@ -17,10 +17,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneHatchet.PrimalItem_WeaponStoneHatchet'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -45,7 +49,11 @@
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStonePick.PrimalItem_WeaponStonePick'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -66,11 +74,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 5,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBola.PrimalItem_WeaponBola'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -91,11 +103,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 30,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -117,10 +133,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -142,10 +162,22 @@
           {
             "Type": "item",
             "Amount": 1,
+            "MinQuality": 3,
+            "MaxQuality": 4,
+            "ForceBlueprint": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponBow.PrimalItem_WeaponBow'"
+          },
+          {
+            "Type": "item",
+            "Amount": 20,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -167,10 +199,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -192,10 +228,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -217,10 +257,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -242,10 +286,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -267,10 +315,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AnkyloSaddle.PrimalItemArmor_AnkyloSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -291,11 +343,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 3,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap_Large.PrimalItemStructure_BearTrap_Large'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -316,11 +372,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 20,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_DinoPoopLarge.PrimalItemConsumable_DinoPoopLarge'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -341,11 +401,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 20,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Fertilizer_Compost.PrimalItemConsumable_Fertilizer_Compost'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -367,10 +431,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -392,10 +460,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -417,10 +489,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -442,10 +518,22 @@
           {
             "Type": "item",
             "Amount": 1,
+            "MinQuality": 2,
+            "MaxQuality": 3,
+            "ForceBlueprint": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'"
+          },
+          {
+            "Type": "item",
+            "Amount": 20,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -467,10 +555,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle.PrimalItemArmor_RexSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -491,11 +583,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 30,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_RefinedTranqDart.PrimalItemAmmo_RefinedTranqDart'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -516,11 +612,15 @@
         "Items": [
           {
             "Type": "item",
-            "Amount": 1,
+            "Amount": 1000,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -542,10 +642,14 @@
           {
             "Type": "item",
             "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
+            "MinQuality": 3,
+            "MaxQuality": 4,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'"
+          },
+          {
+            "Type": "points",
+            "Amount": 300
           }
         ]
       }
@@ -566,12 +670,8 @@
         "MaxRewards": 1,
         "Items": [
           {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Type": "points",
+            "Amount": 1000
           }
         ]
       }
@@ -590,12 +690,8 @@
         "MaxRewards": 1,
         "Items": [
           {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Type": "points",
+            "Amount": 1000
           }
         ]
       }
@@ -616,12 +712,8 @@
         "MaxRewards": 1,
         "Items": [
           {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Type": "points",
+            "Amount": 10000
           }
         ]
       }
@@ -640,12 +732,8 @@
         "MaxRewards": 1,
         "Items": [
           {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+            "Type": "points",
+            "Amount": 10000
           }
         ]
       }

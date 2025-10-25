@@ -185,6 +185,17 @@
     }
   },
   "ShopItems": {
+    "allengrams": {
+      "Type": "command",
+      "Description": "150 Otter",
+      "Price": 4000,
+      "Items": [
+        {
+          "Command": "GMSummon Otter_Character_BP_C 225",
+          "DisplayAs": "Give survivor an otter"
+        }
+      ]
+    },
     "para": {
       "Type": "dino",
       "Description": "Parasaurolophus",
