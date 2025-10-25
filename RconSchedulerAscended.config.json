@@ -18,7 +18,7 @@
     {
       "Command": "ServerEventsAscended.startrandom",
       "Type": "Minutes",
-      "Schedule": 60
+      "Schedule": 1
     },
     {
       "Command": "destroyall \"droppeditemgeneric_fertilizedegg_nophysicsdeinonychus_c\" 0",
