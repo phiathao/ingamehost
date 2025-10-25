@@ -1,7 +1,7 @@
 {
   "version": "1",
   "Mysql": {
-    "UseMysql": false,
+    "UseMysql": true,
     "MysqlHost": "localhost",
     "MysqlUser": "apitest",
     "MysqlPass": "12345",
