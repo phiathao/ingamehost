@@ -1211,8 +1211,8 @@
     }
   },
   "EventSettings": {
-    "EventWarmup": 10,
-    "EventCooldown": 1800,
+    "EventWarmup": 300,
+    "EventCooldown": 10,
     "ShowEventCooldownMessage": true,
     "DestroyAllStructures": false,
     "MinPlayerLevel": 1,
