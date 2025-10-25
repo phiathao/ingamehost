@@ -33,9 +33,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -104,9 +104,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -175,9 +175,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -246,9 +246,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -317,9 +317,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -388,9 +388,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -459,9 +459,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -530,9 +530,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -601,9 +601,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -672,9 +672,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -743,9 +743,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -814,9 +814,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -885,9 +885,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -956,9 +956,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
@@ -1027,9 +1027,9 @@
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
         "PreventStuctureDamage": true,
-        "HealWithEmptyArena": true,
-        "PreventLeaving": true,
-        "PreventEntering": true,
+        "HealWithEmptyArena": false,
+        "PreventLeaving": false,
+        "PreventEntering": false,
         "EnteringRequiresPermission": [
           "Default"
         ],
