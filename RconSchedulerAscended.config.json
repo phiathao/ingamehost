@@ -11,11 +11,6 @@
   },
   "Commands": [
     {
-      "Command": "ServerEventsAscended.startrandom Any",
-      "Type": "Minutes",
-      "Schedule": 1
-    },
-    {
       "Command": "destroyall \"droppeditemgeneric_fertilizedegg_nophysicsdeinonychus_c\" 0",
       "Type": "Startup"
     },
@@ -30,6 +25,46 @@
     {
       "Command": "destroyall \"droppeditemgeneric_fertilizedegg_rockdrake_nophysics_c\" 0",
       "Type": "Startup"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 1 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 4 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 7 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 10 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 13 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 16 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 19 * * *"
+    },
+    {
+      "Command": "ServerEventsAscended.startrandom Any",
+      "Type": "Cron",
+      "Schedule": "0 0 22 * * *"
     }
   ],
   "UseManualCredentials": false,

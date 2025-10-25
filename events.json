@@ -25,7 +25,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Blue",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -96,7 +96,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -167,7 +167,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Cyan",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -238,7 +238,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Red",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -309,7 +309,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Orange",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -380,7 +380,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Yellow",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -426,290 +426,6 @@
       },
       "Label": "Broodmother Gamma"
     },
-    "DragonAlpha": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Hard.Dragon_Character_BP_Boss_Hard'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Purple",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 250,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
-          },
-          {
-            "Type": "points",
-            "Amount": 10000
-          }
-        ]
-      },
-      "Label": "Dragon Alpha"
-    },
-    "DragonBeta": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Medium.Dragon_Character_BP_Boss_Medium'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Magenta",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 140,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'"
-          },
-          {
-            "Type": "points",
-            "Amount": 7000
-          }
-        ]
-      },
-      "Label": "Dragon Beta"
-    },
-    "DragonGamma": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Easy.Dragon_Character_BP_Boss_Easy'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Pink",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 50,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma'"
-          },
-          {
-            "Type": "points",
-            "Amount": 5000
-          }
-        ]
-      },
-      "Label": "Dragon Gamma"
-    },
-    "IceTitan": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/Extinction/CoreBlueprints/Dinos/Kaiju/IceKaiju_Character_BP.IceKaiju_Character_BP'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 100,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "White",
-        "TetherBoss": true,
-        "PreventBossTetherHeal": false,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 60,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice'"
-          },
-          {
-            "Type": "points",
-            "Amount": 6000
-          }
-        ]
-      },
-      "Label": "Ice Titan"
-    },
     "ForestTitan": {
       "AutoCancelAfterXMinutes": 60,
       "Boss": {
@@ -735,7 +451,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 20000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -781,17 +497,17 @@
       },
       "Label": "Forest Titan"
     },
-    "DesertTitan": {
+    "GorillaDragonSlayer": {
       "AutoCancelAfterXMinutes": 60,
       "Boss": {
         "PossibleBuffs": [],
-        "Level": 1,
+        "Level": 50,
         "MaxHealth": -1,
         "IncreaseDamageByPercent": 0,
         "AllowEngramUnlocks": true,
         "AllowAchievements": false,
         "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/Extinction/CoreBlueprints/Dinos/Kaiju/DesertKaiju_Character_BP.DesertKaiju_Character_BP'"
+        "BP": "Blueprint'/Game/PrimalEarth/Dinos/gorilla/Gorilla_Character_BP_Hard.Gorilla_Character_BP_Hard'"
       },
       "Support": {
         "Enabled": true,
@@ -801,15 +517,15 @@
         "SpawnPerFrequency": 1,
         "MaxSpawns": 12,
         "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'"
+          "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
         ],
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
-        "Color": "Gold",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
+        "Size": 25000,
+        "Color": "Red",
+        "TetherBoss": true,
+        "PreventBossTetherHeal": false,
         "PreventBuilding": true,
         "PreventFlyers": true,
         "PreventTekSuitFlying": true,
@@ -830,7 +546,7 @@
         "PerPlayerLoot": [
           {
             "Type": "item",
-            "Amount": 60,
+            "Amount": 400,
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
@@ -842,228 +558,15 @@
             "MinQuality": 0,
             "MaxQuality": 0,
             "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'"
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
           },
           {
             "Type": "points",
-            "Amount": 6000
+            "Amount": 15000
           }
         ]
       },
-      "Label": "Desert Titan"
-    },
-    "ManticoreAlpha": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Hard.Manticore_Character_BP_Hard'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Orange",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 250,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Manticore_Alpha.PrimalItemTrophy_Manticore_Alpha'"
-          },
-          {
-            "Type": "points",
-            "Amount": 10000
-          }
-        ]
-      },
-      "Label": "Manticore Alpha"
-    },
-    "ManticoreBeta": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Medium.Manticore_Character_BP_Medium'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Yellow",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 140,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Manticore_Beta.PrimalItemTrophy_Manticore_Beta'"
-          },
-          {
-            "Type": "points",
-            "Amount": 7000
-          }
-        ]
-      },
-      "Label": "Manticore Beta"
-    },
-    "ManticoreGamma": {
-      "AutoCancelAfterXMinutes": 60,
-      "Boss": {
-        "PossibleBuffs": [],
-        "Level": 1,
-        "MaxHealth": -1,
-        "IncreaseDamageByPercent": 0,
-        "AllowEngramUnlocks": true,
-        "AllowAchievements": false,
-        "AllowStandardItems": false,
-        "BP": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Easy.Manticore_Character_BP_Easy'"
-      },
-      "Support": {
-        "Enabled": true,
-        "MinLevel": 150,
-        "MaxLevel": 200,
-        "Frequency": 60,
-        "SpawnPerFrequency": 1,
-        "MaxSpawns": 12,
-        "PossibleSpawns": [
-          "Blueprint'/Game/PrimalEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'"
-        ],
-        "PossibleBuffs": []
-      },
-      "Arena": {
-        "Size": 15000,
-        "Color": "Brown",
-        "TetherBoss": false,
-        "PreventBossTetherHeal": true,
-        "PreventBuilding": true,
-        "PreventFlyers": true,
-        "PreventTekSuitFlying": true,
-        "PreventStuctureDamage": true,
-        "HealWithEmptyArena": false,
-        "PreventLeaving": false,
-        "PreventEntering": false,
-        "EnteringRequiresPermission": [
-          "Default"
-        ],
-        "ForcedExitLocation": "0 0 0",
-        "HideArena": false,
-        "PlayerLimit": 10,
-        "DinoLimit": 20
-      },
-      "Reward": {
-        "StaticLoot": [],
-        "PerPlayerLoot": [
-          {
-            "Type": "item",
-            "Amount": 50,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
-          },
-          {
-            "Type": "item",
-            "Amount": 1,
-            "MinQuality": 0,
-            "MaxQuality": 0,
-            "ForceBlueprint": false,
-            "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Manticore_Gamma.PrimalItemTrophy_Manticore_Gamma'"
-          },
-          {
-            "Type": "points",
-            "Amount": 5000
-          }
-        ]
-      },
-      "Label": "Manticore Gamma"
+      "Label": "Dragon Slayer Gorilla"
     }
   }
 }

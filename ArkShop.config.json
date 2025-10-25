@@ -514,7 +514,7 @@
         }
       ]
     },
-    "tekengram": {
+    "tekLight": {
       "Type": "unlockengram",
       "Description": "Engram TEK Light",
       "Price": 2000,
@@ -523,410 +523,589 @@
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekLight.PrimalItemStructure_TekLight'"
         }
       ]
+    },
+    "BehemothTekGate": {
+      "Type": "unlockengram",
+      "Description": "Engram Behemoth Tek Gate",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large'"
+        }
+      ]
+    },
+    "BehemothTekGateway": {
+      "Type": "unlockengram",
+      "Description": "Engram Behemoth Tek Gateway",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large'"
+        }
+      ]
+    },
+    "TekCloningChamber": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Cloning Chamber",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber'"
+        }
+      ]
+    },
+    "MegalodonTekSaddle": {
+      "Type": "unlockengram",
+      "Description": "Engram Megalodon Tek Saddle",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'"
+        }
+      ]
+    },
+    "TapejaraTekSaddle": {
+      "Type": "unlockengram",
+      "Description": "Engram Tapejara Tek Saddle",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'"
+        }
+      ]
+    },
+    "TekChestpiece": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Chestpiece",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt'"
+        }
+      ]
+    },
+    "TekDedicatedStorage": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Dedicated Storage",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Storage/PrimalItemStructure_TekDedicatedStorage.PrimalItemStructure_TekDedicatedStorage'"
+        }
+      ]
+    },
+    "TekFenceSupport": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Fence Support",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Walls/PrimalItemStructure_TekFenceSupport.PrimalItemStructure_TekFenceSupport'"
+        }
+      ]
+    },
+    "TekForcefield": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Forcefield",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Shield/PrimalItemStructure_ShieldGenerator.PrimalItemStructure_ShieldGenerator'"
+        }
+      ]
+    },
+    "TekLeggings": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Leggings",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'"
+        }
+      ]
+    },
+    "TekReplicator": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Replicator",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'"
+        }
+      ]
+    },
+    "TekStairs": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Stairs",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stairs/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'"
+        }
+      ]
+    },
+    "TekTransmitter": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Transmitter",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'"
+        }
+      ]
+    },
+    "VacuumCompartment": {
+      "Type": "unlockengram",
+      "Description": "Engram Vacuum Compartment",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/UnderWaterBase/PrimalItemStructure_UnderwaterBase.PrimalItemStructure_UnderwaterBase'"
+        }
+      ]
+    },
+    "SmallTekTeleporter": {
+      "Type": "unlockengram",
+      "Description": "Engram Small Tek Teleporter",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Small.PrimalItemStructure_TekTeleporter_Small'"
+        }
+      ]
+    },
+    "MediumTekTeleporter": {
+      "Type": "unlockengram",
+      "Description": "Engram Medium Tek Teleporter",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Medium.PrimalItemStructure_TekTeleporter_Medium'"
+        }
+      ]
+    },
+    "LargeTekTeleporter": {
+      "Type": "unlockengram",
+      "Description": "Engram Large Tek Teleporter",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Large.PrimalItemStructure_TekTeleporter_Large'"
+        }
+      ]
+    },
+    "TekBehemothCellarDoor": {
+      "Type": "unlockengram",
+      "Description": "Engram Tek Behemoth Cellar Door",
+      "Price": 10000,
+      "Items": [
+        {
+          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGate_Large_Door.PrimalItemStructure_TekGate_Large_Door'"
+        }
+      ]
+    },
+    "SellItems": {
+      "Gamma Broodmother Trophy": {
+        "Type": "item",
+        "Description": "Gamma Broodmother Trophy",
+        "Price": 5000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Gamma.PrimalItemTrophy_Broodmother_Gamma'"
+      },
+      "Beta Broodmother Trophy": {
+        "Type": "item",
+        "Description": "Beta Broodmother Trophy",
+        "Price": 14000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Beta.PrimalItemTrophy_Broodmother_Beta'"
+      },
+      "Alpha Broodmother Trophy": {
+        "Type": "item",
+        "Description": "Alpha Broodmother Trophy",
+        "Price": 20000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Alpha.PrimalItemTrophy_Broodmother_Alpha'"
+      },
+      "Gamma Megaphithecus Trophy": {
+        "Type": "item",
+        "Description": "Gamma Megaphithecus Trophy",
+        "Price": 6000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Gamma.PrimalItemTrophy_Gorilla_Gamma'"
+      },
+      "Beta Megaphithecus Trophy": {
+        "Type": "item",
+        "Description": "Beta Megaphithecus Trophy",
+        "Price": 15000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Beta.PrimalItemTrophy_Gorilla_Beta'"
+      },
+      "Alpha Megaphithecus Trophy": {
+        "Type": "item",
+        "Description": "Alpha Megaphithecus Trophy",
+        "Price": 20000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Alpha.PrimalItemTrophy_Gorilla_Alpha'"
+      },
+      "Gamma Dragon Trophy": {
+        "Type": "item",
+        "Description": "Gamma Dragon Trophy",
+        "Price": 7500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma'"
+      },
+      "Beta Dragon Trophy": {
+        "Type": "item",
+        "Description": "Beta Dragon Trophy",
+        "Price": 17000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'"
+      },
+      "Alpha Dragon Trophy": {
+        "Type": "item",
+        "Description": "Alpha Dragon Trophy",
+        "Price": 22500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
+      },
+      "Allosaurus Brain": {
+        "Type": "item",
+        "Description": "Allosaurus Brain",
+        "Price": 100,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
+      },
+      "Argentavis Talon": {
+        "Type": "item",
+        "Description": "Argentavis Talon",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'"
+      },
+      "Basilosaurus Blubber": {
+        "Type": "item",
+        "Description": "Basilosaurus Blubber",
+        "Price": 100,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
+      },
+      "Giganotosaurus Heart": {
+        "Type": "item",
+        "Description": "Giganotosaurus Heart",
+        "Price": 1000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'"
+      },
+      "Megalania Toxin": {
+        "Type": "item",
+        "Description": "Megalania Toxin",
+        "Price": 10,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'"
+      },
+      "Megalodon Tooth": {
+        "Type": "item",
+        "Description": "Megalodon Tooth",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'"
+      },
+      "Sauropod Vertebra": {
+        "Type": "item",
+        "Description": "Sauropod Vertebra",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'"
+      },
+      "Sarcosuchus Skin": {
+        "Type": "item",
+        "Description": "Sarcosuchus Skin",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"
+      },
+      "Spinosaurus Sail": {
+        "Type": "item",
+        "Description": "Spinosaurus Sail",
+        "Price": 55,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"
+      },
+      "Therizino Claws": {
+        "Type": "item",
+        "Description": "Therizino Claws",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'"
+      },
+      "Thylacoleo Hook-Claw": {
+        "Type": "item",
+        "Description": "Thylacoleo Hook-Claw",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"
+      },
+      "Titanoboa Venom": {
+        "Type": "item",
+        "Description": "Titanoboa Venom",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"
+      },
+      "Tusoteuthis Tentacle": {
+        "Type": "item",
+        "Description": "Tusoteuthis Tentacle",
+        "Price": 80,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"
+      },
+      "Tyrannosaurus Arm": {
+        "Type": "item",
+        "Description": "Tyrannosaurus Arm",
+        "Price": 55,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
+      },
+      "Yutyrannus Lungs": {
+        "Type": "item",
+        "Description": "Yutyrannus Lungs",
+        "Price": 130,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'"
+      },
+      "Alpha Carnotaurus Arm": {
+        "Type": "item",
+        "Description": "Alpha Carnotaurus Arm",
+        "Price": 450,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'"
+      },
+      "Alpha Leedsichthys Blubber": {
+        "Type": "item",
+        "Description": "Alpha Leedsichthys Blubber",
+        "Price": 500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'"
+      },
+      "Alpha Megalodon Fin": {
+        "Type": "item",
+        "Description": "Alpha Megalodon Fin",
+        "Price": 500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'"
+      },
+      "Alpha Mosasaur Tooth": {
+        "Type": "item",
+        "Description": "Alpha Mosasaur Tooth",
+        "Price": 500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'"
+      },
+      "Alpha Raptor Claw": {
+        "Type": "item",
+        "Description": "Alpha Raptor Claw",
+        "Price": 350,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'"
+      },
+      "Alpha Tusoteuthis Eye": {
+        "Type": "item",
+        "Description": "Alpha Tusoteuthis Eye",
+        "Price": 1000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'"
+      },
+      "Alpha Tyrannosaur Tooth": {
+        "Type": "item",
+        "Description": "Alpha Tyrannosaur Tooth",
+        "Price": 500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'"
+      },
+      "Fire Talon": {
+        "Type": "item",
+        "Description": "Fire Talon",
+        "Price": 250,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"
+      },
+      "Lightning Talon": {
+        "Type": "item",
+        "Description": "Lightning Talon",
+        "Price": 250,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'"
+      },
+      "Poison Talon": {
+        "Type": "item",
+        "Description": "Poison Talon",
+        "Price": 250,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'"
+      },
+      "Basilisk Scale": {
+        "Type": "item",
+        "Description": "Basilisk Scale",
+        "Price": 150,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"
+      },
+      "Nameless Venom": {
+        "Type": "item",
+        "Description": "Nameless Venom",
+        "Price": 30,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'"
+      },
+      "Reaper Pheromone Gland": {
+        "Type": "item",
+        "Description": "Reaper Pheromone Gland",
+        "Price": 100,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"
+      },
+      "Rock Drake Feather": {
+        "Type": "item",
+        "Description": "Rock Drake Feather",
+        "Price": 75,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'"
+      },
+      "Alpha Basilisk Fang": {
+        "Type": "item",
+        "Description": "Alpha Basilisk Fang",
+        "Price": 1000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'"
+      },
+      "Alpha Karkinos Claw": {
+        "Type": "item",
+        "Description": "Alpha Karkinos Claw",
+        "Price": 1000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'"
+      },
+      "Alpha Reaper King Barb": {
+        "Type": "item",
+        "Description": "Alpha Reaper King Barb",
+        "Price": 1500,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'"
+      },
+      "Corrupt Heart": {
+        "Type": "item",
+        "Description": "Corrupt Heart",
+        "Price": 5,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart'"
+      },
+      "Gasbags bladder": {
+        "Type": "item",
+        "Description": "Gasbags bladder",
+        "Price": 40,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag'"
+      },
+      "Ice Titan Trophy": {
+        "Type": "item",
+        "Description": "Ice Titan Trophy",
+        "Price": 10000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice'"
+      },
+      "Desert Titan Trophy": {
+        "Type": "item",
+        "Description": "Desert Titan Trophy",
+        "Price": 10000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'"
+      },
+      "Forest Titan Trophy": {
+        "Type": "item",
+        "Description": "Forest Titan Trophy",
+        "Price": 10000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest'"
+      },
+      "King Titan Trophy (Gamma)": {
+        "Type": "item",
+        "Description": "King Titan Trophy (Gamma)",
+        "Price": 10000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma'"
+      },
+      "King Titan Trophy (Beta)": {
+        "Type": "item",
+        "Description": "King Titan Trophy (Beta)",
+        "Price": 30000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta'"
+      },
+      "King Titan Trophy (Alpha)": {
+        "Type": "item",
+        "Description": "King Titan Trophy (Alpha)",
+        "Price": 75000,
+        "Amount": 1,
+        "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha'"
+      }
+    },
+    "Messages": {
+      "Sender": "ArkShop",
+      "BoughtItem": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought item</>",
+      "BoughtDino": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought dino</>",
+      "BoughtBeacon": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought beacon</>",
+      "BoughtExp": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought experience</>",
+      "ReceivedPoints": "<RichColor Color=\"1, 1, 0, 1\">You have received {0} points! (total: {1})</>",
+      "ReceivedNoPoints": "<RichColor Color=\"1, 1, 0, 1\">You have received no points!</>",
+      "HavePoints": "You have {0} points",
+      "NoPoints": "<RichColor Color=\"1, 0, 0, 1\">You don't have enough points</>",
+      "WrongId": "<RichColor Color=\"1, 0, 0, 1\">Wrong id</>",
+      "NoPermissionsKit": "<RichColor Color=\"1, 0, 0, 1\">You don't have permission to use this kit</>",
+      "CantBuyKit": "<RichColor Color=\"1, 0, 0, 1\">You can't buy this kit</>",
+      "BoughtKit": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought {0} kit</>",
+      "AvailableKits": "Available kits for you:",
+      "NoKits": "No available kits",
+      "KitsLeft": "You have {0} {1} kits left",
+      "NoKitsLeft": "You don't have {0} kits left",
+      "CantGivePoints": "<RichColor Color=\"1, 0, 0, 1\">You can't give points to yourself</>",
+      "RidingDino": "<RichColor Color=\"1, 0, 0, 1\">You can't buy this item while riding a dino</>",
+      "SentPoints": "<RichColor Color=\"0, 1, 0, 1\">You have successfully sent {0} points to {1}</>",
+      "GotPoints": "You have received {0} points from {1}",
+      "NoPlayer": "<RichColor Color=\"1, 0, 0, 1\">Player doesn't exist</>",
+      "FoundMorePlayers": "<RichColor Color=\"1, 0, 0, 1\">Found more than one player with the given name</>",
+      "BuyUsage": "Usage: /buy id amount",
+      "ShopUsage": "Usage: /shop page",
+      "KitUsage": "Usage: /kit KitName",
+      "BuyKitUsage": "Usage: /BuyKit KitName amount",
+      "TradeUsage": "Usage: /trade 'Player Name' amount",
+      "PointsCmd": "/points",
+      "TradeCmd": "/trade",
+      "BuyCmd": "/buy",
+      "ShopCmd": "/shop",
+      "KitCmd": "/kit",
+      "BuyKitCmd": "/buykit",
+      "SellCmd": "/sell",
+      "ShopSellCmd": "/shopsell",
+      "SellUsage": "Usage: /sell id amount",
+      "NotEnoughItems": "<RichColor Color=\"1, 0, 0, 1\">You don't have enough items ({0}/{1})</>",
+      "SoldItems": "<RichColor Color=\"0, 1, 0, 1\">You have successfully sold items</>",
+      "BadLevel": "<RichColor Color=\"1, 0, 0, 1\">Required level: {0} - {1}</>",
+      "KitsListPrice": "Price: {0}",
+      "KitsListFormat": "\"{0}\" - {1}. {2} left. {3}\n",
+      "StoreListDino": "{0}) {1}. Level: {2}. Id: {3}. Price: {4}\n",
+      "StoreListItem": "{0}) {1}. Id: {2}. Price: {3}\n",
+      "StoreListFormat": "{0}",
+      "OnlyOnSpawnKit": "This kit can be used only on spawn",
+      "HelpCmd": "/shophelp",
+      "ShopMessage": "Usage: /buy id amount",
+      "HelpMessage": "This is shop help message",
+      "RefundError": "Points refunded due to an error",
+      "ShopFindCmd": "/shopfind",
+      "ShopFindUsage": "Usage: /shopfind searchterm",
+      "ShopFindNotFound": "No items matched your search",
+      "ShopFindTooManyResults": "Too many results to display refine your search term",
+      "NoPermissionsStore": "<RichColor Color=\"1, 0, 0, 1\">You don't have permission to buy this {0}!</>",
+      "InventoryIsFull": "<RichColor Color=\"1, 0, 0, 1\">Unable to redeem your kit, inventory full!</>",
+      "ReceivedKits": "<RichColor Color=\"1, 1, 0, 1\">You received {0} kit(s): {1}! (Now you have: {2})</>"
     }
-  },
-  "SellItems": {
-    "Gamma Broodmother Trophy": {
-      "Type": "item",
-      "Description": "Gamma Broodmother Trophy",
-      "Price": 5000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Gamma.PrimalItemTrophy_Broodmother_Gamma'"
-    },
-    "Beta Broodmother Trophy": {
-      "Type": "item",
-      "Description": "Beta Broodmother Trophy",
-      "Price": 14000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Beta.PrimalItemTrophy_Broodmother_Beta'"
-    },
-    "Alpha Broodmother Trophy": {
-      "Type": "item",
-      "Description": "Alpha Broodmother Trophy",
-      "Price": 20000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Alpha.PrimalItemTrophy_Broodmother_Alpha'"
-    },
-    "Gamma Megaphithecus Trophy": {
-      "Type": "item",
-      "Description": "Gamma Megaphithecus Trophy",
-      "Price": 6000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Gamma.PrimalItemTrophy_Gorilla_Gamma'"
-    },
-    "Beta Megaphithecus Trophy": {
-      "Type": "item",
-      "Description": "Beta Megaphithecus Trophy",
-      "Price": 15000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Beta.PrimalItemTrophy_Gorilla_Beta'"
-    },
-    "Alpha Megaphithecus Trophy": {
-      "Type": "item",
-      "Description": "Alpha Megaphithecus Trophy",
-      "Price": 20000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Alpha.PrimalItemTrophy_Gorilla_Alpha'"
-    },
-    "Gamma Dragon Trophy": {
-      "Type": "item",
-      "Description": "Gamma Dragon Trophy",
-      "Price": 7500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma'"
-    },
-    "Beta Dragon Trophy": {
-      "Type": "item",
-      "Description": "Beta Dragon Trophy",
-      "Price": 17000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'"
-    },
-    "Alpha Dragon Trophy": {
-      "Type": "item",
-      "Description": "Alpha Dragon Trophy",
-      "Price": 22500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
-    },
-    "Allosaurus Brain": {
-      "Type": "item",
-      "Description": "Allosaurus Brain",
-      "Price": 100,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"
-    },
-    "Argentavis Talon": {
-      "Type": "item",
-      "Description": "Argentavis Talon",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'"
-    },
-    "Basilosaurus Blubber": {
-      "Type": "item",
-      "Description": "Basilosaurus Blubber",
-      "Price": 100,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"
-    },
-    "Giganotosaurus Heart": {
-      "Type": "item",
-      "Description": "Giganotosaurus Heart",
-      "Price": 1000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'"
-    },
-    "Megalania Toxin": {
-      "Type": "item",
-      "Description": "Megalania Toxin",
-      "Price": 10,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'"
-    },
-    "Megalodon Tooth": {
-      "Type": "item",
-      "Description": "Megalodon Tooth",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'"
-    },
-    "Sauropod Vertebra": {
-      "Type": "item",
-      "Description": "Sauropod Vertebra",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'"
-    },
-    "Sarcosuchus Skin": {
-      "Type": "item",
-      "Description": "Sarcosuchus Skin",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"
-    },
-    "Spinosaurus Sail": {
-      "Type": "item",
-      "Description": "Spinosaurus Sail",
-      "Price": 55,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"
-    },
-    "Therizino Claws": {
-      "Type": "item",
-      "Description": "Therizino Claws",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'"
-    },
-    "Thylacoleo Hook-Claw": {
-      "Type": "item",
-      "Description": "Thylacoleo Hook-Claw",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"
-    },
-    "Titanoboa Venom": {
-      "Type": "item",
-      "Description": "Titanoboa Venom",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"
-    },
-    "Tusoteuthis Tentacle": {
-      "Type": "item",
-      "Description": "Tusoteuthis Tentacle",
-      "Price": 80,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"
-    },
-    "Tyrannosaurus Arm": {
-      "Type": "item",
-      "Description": "Tyrannosaurus Arm",
-      "Price": 55,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"
-    },
-    "Yutyrannus Lungs": {
-      "Type": "item",
-      "Description": "Yutyrannus Lungs",
-      "Price": 130,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'"
-    },
-    "Alpha Carnotaurus Arm": {
-      "Type": "item",
-      "Description": "Alpha Carnotaurus Arm",
-      "Price": 450,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'"
-    },
-    "Alpha Leedsichthys Blubber": {
-      "Type": "item",
-      "Description": "Alpha Leedsichthys Blubber",
-      "Price": 500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaLeeds.PrimalItemResource_ApexDrop_AlphaLeeds'"
-    },
-    "Alpha Megalodon Fin": {
-      "Type": "item",
-      "Description": "Alpha Megalodon Fin",
-      "Price": 500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'"
-    },
-    "Alpha Mosasaur Tooth": {
-      "Type": "item",
-      "Description": "Alpha Mosasaur Tooth",
-      "Price": 500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'"
-    },
-    "Alpha Raptor Claw": {
-      "Type": "item",
-      "Description": "Alpha Raptor Claw",
-      "Price": 350,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'"
-    },
-    "Alpha Tusoteuthis Eye": {
-      "Type": "item",
-      "Description": "Alpha Tusoteuthis Eye",
-      "Price": 1000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'"
-    },
-    "Alpha Tyrannosaur Tooth": {
-      "Type": "item",
-      "Description": "Alpha Tyrannosaur Tooth",
-      "Price": 500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'"
-    },
-    "Fire Talon": {
-      "Type": "item",
-      "Description": "Fire Talon",
-      "Price": 250,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"
-    },
-    "Lightning Talon": {
-      "Type": "item",
-      "Description": "Lightning Talon",
-      "Price": 250,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'"
-    },
-    "Poison Talon": {
-      "Type": "item",
-      "Description": "Poison Talon",
-      "Price": 250,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'"
-    },
-    "Basilisk Scale": {
-      "Type": "item",
-      "Description": "Basilisk Scale",
-      "Price": 150,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"
-    },
-    "Nameless Venom": {
-      "Type": "item",
-      "Description": "Nameless Venom",
-      "Price": 30,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'"
-    },
-    "Reaper Pheromone Gland": {
-      "Type": "item",
-      "Description": "Reaper Pheromone Gland",
-      "Price": 100,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"
-    },
-    "Rock Drake Feather": {
-      "Type": "item",
-      "Description": "Rock Drake Feather",
-      "Price": 75,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'"
-    },
-    "Alpha Basilisk Fang": {
-      "Type": "item",
-      "Description": "Alpha Basilisk Fang",
-      "Price": 1000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'"
-    },
-    "Alpha Karkinos Claw": {
-      "Type": "item",
-      "Description": "Alpha Karkinos Claw",
-      "Price": 1000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'"
-    },
-    "Alpha Reaper King Barb": {
-      "Type": "item",
-      "Description": "Alpha Reaper King Barb",
-      "Price": 1500,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'"
-    },
-    "Corrupt Heart": {
-      "Type": "item",
-      "Description": "Corrupt Heart",
-      "Price": 5,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart'"
-    },
-    "Gasbags bladder": {
-      "Type": "item",
-      "Description": "Gasbags bladder",
-      "Price": 40,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag'"
-    },
-    "Ice Titan Trophy": {
-      "Type": "item",
-      "Description": "Ice Titan Trophy",
-      "Price": 10000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice'"
-    },
-    "Desert Titan Trophy": {
-      "Type": "item",
-      "Description": "Desert Titan Trophy",
-      "Price": 10000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'"
-    },
-    "Forest Titan Trophy": {
-      "Type": "item",
-      "Description": "Forest Titan Trophy",
-      "Price": 10000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest'"
-    },
-    "King Titan Trophy (Gamma)": {
-      "Type": "item",
-      "Description": "King Titan Trophy (Gamma)",
-      "Price": 10000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma'"
-    },
-    "King Titan Trophy (Beta)": {
-      "Type": "item",
-      "Description": "King Titan Trophy (Beta)",
-      "Price": 30000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta'"
-    },
-    "King Titan Trophy (Alpha)": {
-      "Type": "item",
-      "Description": "King Titan Trophy (Alpha)",
-      "Price": 75000,
-      "Amount": 1,
-      "Blueprint": "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha'"
-    }
-  },
-  "Messages": {
-    "Sender": "ArkShop",
-    "BoughtItem": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought item</>",
-    "BoughtDino": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought dino</>",
-    "BoughtBeacon": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought beacon</>",
-    "BoughtExp": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought experience</>",
-    "ReceivedPoints": "<RichColor Color=\"1, 1, 0, 1\">You have received {0} points! (total: {1})</>",
-    "ReceivedNoPoints": "<RichColor Color=\"1, 1, 0, 1\">You have received no points!</>",
-    "HavePoints": "You have {0} points",
-    "NoPoints": "<RichColor Color=\"1, 0, 0, 1\">You don't have enough points</>",
-    "WrongId": "<RichColor Color=\"1, 0, 0, 1\">Wrong id</>",
-    "NoPermissionsKit": "<RichColor Color=\"1, 0, 0, 1\">You don't have permission to use this kit</>",
-    "CantBuyKit": "<RichColor Color=\"1, 0, 0, 1\">You can't buy this kit</>",
-    "BoughtKit": "<RichColor Color=\"0, 1, 0, 1\">You have successfully bought {0} kit</>",
-    "AvailableKits": "Available kits for you:",
-    "NoKits": "No available kits",
-    "KitsLeft": "You have {0} {1} kits left",
-    "NoKitsLeft": "You don't have {0} kits left",
-    "CantGivePoints": "<RichColor Color=\"1, 0, 0, 1\">You can't give points to yourself</>",
-    "RidingDino": "<RichColor Color=\"1, 0, 0, 1\">You can't buy this item while riding a dino</>",
-    "SentPoints": "<RichColor Color=\"0, 1, 0, 1\">You have successfully sent {0} points to {1}</>",
-    "GotPoints": "You have received {0} points from {1}",
-    "NoPlayer": "<RichColor Color=\"1, 0, 0, 1\">Player doesn't exist</>",
-    "FoundMorePlayers": "<RichColor Color=\"1, 0, 0, 1\">Found more than one player with the given name</>",
-    "BuyUsage": "Usage: /buy id amount",
-    "ShopUsage": "Usage: /shop page",
-    "KitUsage": "Usage: /kit KitName",
-    "BuyKitUsage": "Usage: /BuyKit KitName amount",
-    "TradeUsage": "Usage: /trade 'Player Name' amount",
-    "PointsCmd": "/points",
-    "TradeCmd": "/trade",
-    "BuyCmd": "/buy",
-    "ShopCmd": "/shop",
-    "KitCmd": "/kit",
-    "BuyKitCmd": "/buykit",
-    "SellCmd": "/sell",
-    "ShopSellCmd": "/shopsell",
-    "SellUsage": "Usage: /sell id amount",
-    "NotEnoughItems": "<RichColor Color=\"1, 0, 0, 1\">You don't have enough items ({0}/{1})</>",
-    "SoldItems": "<RichColor Color=\"0, 1, 0, 1\">You have successfully sold items</>",
-    "BadLevel": "<RichColor Color=\"1, 0, 0, 1\">Required level: {0} - {1}</>",
-    "KitsListPrice": "Price: {0}",
-    "KitsListFormat": "\"{0}\" - {1}. {2} left. {3}\n",
-    "StoreListDino": "{0}) {1}. Level: {2}. Id: {3}. Price: {4}\n",
-    "StoreListItem": "{0}) {1}. Id: {2}. Price: {3}\n",
-    "StoreListFormat": "{0}",
-    "OnlyOnSpawnKit": "This kit can be used only on spawn",
-    "HelpCmd": "/shophelp",
-    "ShopMessage": "Usage: /buy id amount",
-    "HelpMessage": "This is shop help message",
-    "RefundError": "Points refunded due to an error",
-    "ShopFindCmd": "/shopfind",
-    "ShopFindUsage": "Usage: /shopfind searchterm",
-    "ShopFindNotFound": "No items matched your search",
-    "ShopFindTooManyResults": "Too many results to display refine your search term",
-    "NoPermissionsStore": "<RichColor Color=\"1, 0, 0, 1\">You don't have permission to buy this {0}!</>",
-    "InventoryIsFull": "<RichColor Color=\"1, 0, 0, 1\">Unable to redeem your kit, inventory full!</>",
-    "ReceivedKits": "<RichColor Color=\"1, 1, 0, 1\">You received {0} kit(s): {1}! (Now you have: {2})</>"
   }
-}
