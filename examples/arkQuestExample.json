@@ -1,0 +1,899 @@
+{
+  "AccountKey": "", //Can be found by messaging LethalBot "/license list"
+  "AutoRenewLicense": true, //true will attempt to auto renew the license if you have renewal credits available when the license has less than 45 days left //false requires manual renewal using the RCON command
+  "HostLicense": false, //If you have a host license set this to true otherwise leave as false
+  "Commands": {
+    "CheckStats": "/stats", //Player chat command to check their stats (see DynamicStats for what is shown to the player)
+    "ClaimReward": "/rewards", //Player chat command used to claim rewards from completed quests if "AutoClaimRewards": false
+    "CheckQuests": "/quests", //Player chat command to get a list of active quests
+    "QuestDetails": "/quest", //Player chat command to get details of a specific quest
+    "CheckCompletedQuests": "/completed", //Player chat command to list of completed quests (not daily/weekly)
+    "LinkDiscord": "/linkstats" //Player chat command to generate a command the player will type in discord to link eos_id to discord
+  },
+  "General": {
+    "AutoClaimRewards": true, //true will automatically give rewards for completed quests every 60 seconds //false will require using the /reward command
+    "CryoPodExpirationTime": 1, //number of hours before a cryopod expires valid range from 1-24 //0 = default timer (30 days?)
+    "CryoBP": "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'", //Default Cryopod blueprint path //Also supports Pelayori's CryoPod Mod "Blueprint'/Cryopods/Cryopods/PrimalItem_WeaponEmptyCryopod_Mod.PrimalItem_WeaponEmptyCryopod_Mod'"
+    "DailyWeeklyAutoWipe": true, //true will enable automatic time based expiration for Daily/Weekly quests starting from when the Quest is assigned. Meaning the player gets 24 hours for daily and 7 days for weekly to complete them before automatically being removed from them and being assigned new Quests.
+    "PVPKillNotification": true, //true will display a message to the whole server //false will not show any notification
+    "SimpleSpawnerResources": false, //true will allow Simple Spawner Resources to be tracked (also counts ArkShop purchased items)
+    "PrimaryMapName": "", //Recommended setting a mapname (Shown during map start) only that map will do database modifications. Otherwise leave blank and all maps will attempt changes.
+    "OSDEventCompletionRange": 60, //Range measured in foundations from the event center for which players need to be inside of to get credit for the event.
+    "ElementVeinEventCompletionRange": 60, //Range measured in foundations from the event center for which players need to be inside of to get credit for the event.
+    "TamingEventRange": 60, //Range measured in foundations from the event center for which players need to be inside of to get credit for the event.
+    "EnableHeadshotDetection": true, //true will enable headshot detection for quest kills //false will disable headshot detection for quest kills //see `KillsByWeaponTypeDistance` for more details/usage
+    "EventTrackingRange": 33, //Range measured in foundations from the event center for which players need to be inside of to get credit for the Lethal Server Event.
+    "DinoKillRange": 15, //Range measured in foundations from the dino for which players need to be inside of to get credit for the kill on a Wild dino.
+    "ForceKillRangeForAll": false, //true will awarad players within the range of the dino to get credit for the kill on all dinos //false will give credit to the player who got the kill directly or if the dino is in the `ForcedKillRangeDinos` list all players in range will get credit
+    "ForcedKillRangeDinos": [ //List of dinos that will always give credit to all players inside the `DinoKillRange`. Only used if `ForceKillRangeForAll` is false
+      "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'"
+    ]
+  },
+  "DiscordLogging": { //This will log information to a discord channel about events that happen when a player joins a server
+    "Enabled": false, //enables the feature
+    "KillFeedWebhook": "", //discord channel webhook for PVP Kill Feed
+    "QuestsWebhook": "", //discord channel webhook for Quest Completions
+    "WebhookPrefix": { //These will add a line in the logging to specify which server the events happened on. You should add an entry for all maps you are running
+      "Ragnarok": "Ragnarok", //map name is the same one used in the command line parameter followed by how you want to identify the map
+      "Valguero_WP": "Valguero",
+      "Aberration_WP": "Aberration",
+      "TheCenter": "The Center",
+      "TheIsland_WP": "The Island",
+      "ScorchedEarth_WP": "ScorchedEarth",
+      "Genesis": "Genesis",
+      "Extinction": "Extinction",
+      "CrystalIsles": "CrystalIsles",
+      "Gen2": "Genesis2"
+    }
+  },
+  "HonorSystem": { //Helps prevent PVP kill farming
+    "Enabled": true, //Enables feature
+    "HonorlessTime": 1800 //Number of seconds a player will be honorless after leaving a tribe or being killed
+  },
+  "BossDinos": [ //List of dinos that count towards boss kill credit
+    "SpiderL_Character_BP",
+    "Gorilla_Character_BP",
+    "Dragon_Character_BP_Boss",
+    "EndBoss_Character",
+    "Manticore_Character_BP",
+    "Rockwell_Character_BP",
+    "VRMainBoss_Character",
+    "CrystalWyvern_Character_BP",
+    "BossDinopithecus_Character_BP",
+    "Fenrir_Character_BP_Boss"
+  ],
+  "RandomDinoRewards": { //Groups of dinos you want to have as a random dino reward
+    "Tier1": [ //List of dinos you want to have as a random dino reward
+      "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'"
+    ],
+    "Tier2": [ //List of dinos you want to have as a random dino reward
+      "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+      "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'"
+    ]
+  },
+  "RandomItemRewards": { //List of items you want to have as a random item rerward
+    "Tier1": [ //List of items you want to have as a random item rerward
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'",
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'",
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedPistol.PrimalItem_WeaponMachinedPistol'"
+    ],
+    "Tier2": [ //List of items you want to have as a random item rerward
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'",
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun'"
+    ]
+  },
+  "RandomStackableItemRewards": { //Groups of items you want to have as random item rewards for stackable items
+    "Tier1": [ //List of items you want to have as random item rewards for stackable items
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'",
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'"
+    ],
+    "Tier2": [ //List of items you want to have as random item rewards for stackable items
+      "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'"
+    ]
+  },
+  "RandomCommandRewards": { //Groups of commands you want to have as random rewards
+    "Tier1": [ //List of commands you want to have a random rewards
+      "GiveEngrams"
+    ],
+    "Tier2": [ //List of commands you want to have a random rewards
+      "permissions.add {eos_id} vip"
+    ]
+  },
+  "GenericRewards": { //This can be used to specify generic loot rewards
+    "PreventDuplicateRewards": true,
+    "MinRewards": 1,
+    "MaxRewards": 3,
+    "Items": [
+      {
+        "Type": "item",
+        "Amount": 1,
+        "MinQuality": 0,
+        "MaxQuality": 0,
+        "ForceBlueprint": false,
+        "BlueprintChance": 25,
+        "Blueprint": "RandomItemRewards:Tier1"
+      },
+      {
+        "Type": "item",
+        "MinAmount": 50,
+        "MaxAmount": 100,
+        "ForceBlueprint": false,
+        "Blueprint": "RandomStackableItemRewards:Tier1"
+      },
+      {
+        "Type": "dino",
+        "MinLevel": 100,
+        "MaxLevel": 150,
+        "Neutered": false,
+        "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+      },
+      {
+        "Type": "dino",
+        "Level": 150,
+        "Neutered": false,
+        "Blueprint": "RandomDinoRewards:Tier1"
+      }
+    ]
+  },
+  "StatRestrictions": { //Restrict tracking stats where Dino level is below the minimum set
+    "KillingMinimumLevel": 80, //Dinos level 80 or higher will be tracked for kills
+    "TamingMinimumLevel": 80, //Dinos level 80 or higher before tame will count for tames
+    "TamingAllowWildBabies": false //true WILL ALLOW wild baby tames to count //false WILL NOT ALLOW wild baby tames to count
+  },
+  "CustomTracking": { //This section will allow tracking Dino Kills and Resource Harvesting
+    "DinoKills": { //You can track any dino blueprint Rex's are grouped but Stegos I have tracked separately. Setup however you like.
+      "RexKills": [ //This value must be unique because it will be used as the database column name (used as the Requirement for quests)
+        "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
+        "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'"
+      ],
+      "BulbdogKills": [ //This value must be unique because it will be used as the database column name (used as the Requirement for quests)
+        "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
+      ],
+      "StegoKills": [ "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'" ],
+      "TekStegoKills": [ "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'" ]
+    },
+    "DinoTaming": {
+      "RexTame": [ //This value must be unique because it will be used as the database column name (used as the Requirement for quests)
+        "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
+        "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'"
+      ],
+      "BulbdogTame": [ //This value must be unique because it will be used as the database column name (used as the Requirement for quests)
+        "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'"
+      ],
+      "CarbonemysTame": [ //This value must be unique because it will be used as the database column name (used as the Requirement for quests)
+        "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'"
+      ]
+    },
+    "ResourceGathering": { //Only resources you can gather by hand should be added here I have provided many examples below
+      "PoisonWyvern": [
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison'"
+      ],
+      "FireWyvern": [
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire'"
+      ],
+      "LightningWyvern": [
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning'"
+      ],
+      "AnyWyvern": [
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison'",
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire'",
+        "Blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning'"
+      ],
+      "Stone": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'" ],
+      "Flint": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint'" ],
+      "Wood": [
+        "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'"
+      ],
+      "Thatch": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'" ],
+      "Metal": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal'" ],
+      "Berries": [
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
+      ],
+      "ElementShard": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard'" ],
+      "Element": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'" ],
+      "ElementOre": [ "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ElementOre.PrimalItemResource_ElementOre'" ],
+      "RedGem": [ "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'" ],
+      "BlueGem": [ "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'" ],
+      "GreenGem": [ "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'" ],
+      "Oil": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'" ],
+      "Obsidian": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'" ],
+      "Sulfur": [ "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'" ],
+      "Sand": [ "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'" ],
+      "Crystal": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'" ],
+      "RawSalt": [ "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt'" ],
+      "Fiber": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers'" ],
+      "SilicaPearl": [
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'",
+        "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_Silicate.PrimalItemResource_Silicate'"
+      ],
+      "BlackPearl": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'" ],
+      "RareFlower": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'" ],
+      "Hide": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'" ],
+      "RawMeat": [
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'"
+      ],
+      "Honey": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'" ],
+      "OrganicPolymer": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'" ],
+      "Mutagel": [ "Blueprint'/Game/Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagel.PrimalItemConsumable_Mutagel'" ],
+      "AnglerGel": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel'" ],
+      "Chitin": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'" ],
+      "Pelt": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt'" ],
+      "Keratin": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin'" ],
+      "CactusSap": [ "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'" ],
+      "Silk": [ "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk'" ],
+      "Mushroom": [
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'",
+        "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemResource_CommonMushroom.PrimalItemResource_CommonMushroom'",
+        "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Aquatic.PrimalItemConsumable_Mushroom_Aquatic'",
+        "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Ascerbic.PrimalItemConsumable_Mushroom_Ascerbic'",
+        "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric'"
+      ]
+    },
+    "Crafted": {
+      "Hatchet": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneHatchet.PrimalItem_WeaponStoneHatchet'" ],
+      "Pick": [ "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStonePick.PrimalItem_WeaponStonePick'" ]
+    },
+    "AutoBases": { //AutoBases plugin integration (https://arkserverapi.com/index.php?resources/autobases-autonomous-base-spawn-system.279/)
+      "AnyAutoBase": [ //Stat name used in quests
+        "StarterBase", //AutoBases Template Name
+        "Raid1" //AutoBases Template Name
+      ],
+      "AutoBasesLevelEasy": [ //Stat name used in quests
+        "StarterBase" //AutoBases Template Name
+      ],
+      "AutoBasesLevelMedium": [ //Stat name used in quests
+        "Raid1" //AutoBases Template Name
+      ],
+      "AutoBasesLevelHard": [ //Stat name used in quests
+      ]
+    },
+    "ServerEvents": { //ServerEvents plugin integration
+      "ServerEventsGorilla": [ //Stat name used in quests
+        "Blueprint'/Game/PrimalEarth/Dinos/gorilla/Gorilla_Character_BP_Hard.Gorilla_Character_BP_Hard'" //event boss blueprint path
+      ],
+      "ServerEventsLava": [ //Stat name used in quests
+        "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/LavaGolem/LavaGolem_Character_BP.LavaGolem_Character_BP'" //event boss blueprint path
+      ],
+      "ServerEventsQueen": [ //Stat name used in quests
+        "Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Hard.CrystalWyvern_Character_BP_Boss_Hard'" //event boss blueprint path
+      ],
+      "ServerEventsManticore": [ //Stat name used in quests
+        "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP_Hard.Manticore_Character_BP_Hard'" //event boss blueprint path
+      ]
+    },
+    "StructuresDestroyed": { //Ability to track destroyed structures
+      "TekGen": [ //Stat name used in quests
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGenerator.PrimalItemStructure_TekGenerator'"
+      ],
+      "TekTransmitter": [ //Stat name used in quests
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'"
+      ]
+    },
+    "KillsByWeaponTypeDistance": {
+      "SniperKills": { //Stat name used in quests
+        "Weapons": [ //List of Weapons allowed to count for the kill
+          "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'",
+          "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponOneShotRifle.PrimalItem_WeaponOneShotRifle'"
+        ],
+        "Dinos": [ //List of Dinos that count as a kill
+
+        ],
+        "Distance": 0, //Distance in meters (1 foundation = 3 meters) from the target to count as a kill //0 = any distance
+        "AnyDino": true, //true = any dino kill counts, false = only dinos in the Dinos list will count
+        "IncludePlayers": true, //true = include killing players, false = exclude killing players
+        "MinimumLevel": 0, //Minimum level of the player/dino to count as a kill //0 = any level //Not including this will default to 0
+        "HeadshotRequired": false //true = only killing blow headshots count, false = any body part counts
+      },
+      "FabbyGiga80": { //Stat name used in quests
+        "Weapons": [ //List of Weapons allowed to count for the kill
+          "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'"
+        ],
+        "Dinos": [ //List of Dinos that count as a kill
+          "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'"
+        ],
+        "Distance": 80, //Distance in meters (1 foundation = 3 meters) from the target to count as a kill //0 = any distance
+        "AnyDino": false, //true = any dino kill counts, false = only dinos in the Dinos list will count
+        "IncludePlayers": false, //true = include killing players, false = exclude killing players
+        "MinimumLevel": 0, //Minimum level of the player/dino to count as a kill //0 = any level //Not including this will default to 0
+        "HeadshotRequired": false //true = only killing blow headshots count, false = any body part counts
+      },
+      "FabbyAny100": { //Stat name used in quests
+        "Weapons": [ //List of Weapons allowed to count for the kill
+          "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'"
+        ],
+        "Dinos": [ //List of Dinos that count as a kill
+
+        ],
+        "Distance": 100, //Distance in meters (1 foundation = 3 meters) from the target to count as a kill //0 = any distance
+        "AnyDino": true, //true = any dino kill counts, false = only dinos in the Dinos list will count
+        "IncludePlayers": true, //true = include killing players, false = exclude killing players
+        "MinimumLevel": 0, //Minimum level of the player/dino to count as a kill //0 = any level //Not including this will default to 0
+        "HeadshotRequired": false //true = only killing blow headshots count, false = any body part counts
+      },
+      "FabbyPlayer100": { //Stat name used in quests
+        "Weapons": [ //List of Weapons allowed to count for the kill
+          "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper'"
+        ],
+        "Dinos": [ //List of Dinos that count as a kill
+
+        ],
+        "Distance": 100, //Distance in meters (1 foundation = 3 meters) from the target to count as a kill //0 = any distance
+        "AnyDino": false, //true = any dino kill counts, false = only dinos in the Dinos list will count
+        "IncludePlayers": true, //true = include killing players, false = exclude killing players
+        "MinimumLevel": 100, //Minimum level of the player/dino to count as a kill //0 = any level //Not including this will default to 0
+        "HeadshotRequired": false //true = only killing blow headshots count, false = any body part counts
+      }
+    }
+  },
+  "TamedDinosIgnoreList": [ //Dinos in this list will not count towards TamedDinos (Crafted dinos need the spawned blueprint path not the inventory item)
+    "Blueprint'/Game/PrimalEarth/Items/Raft/Raft_BP.Raft_BP'",
+    "Blueprint'/Game/PrimalEarth/Items/Raft/MotorRaft_BP.MotorRaft_BP'"
+  ],
+  "HarvestDinosIgnoreList": [ //Dinos in this list will not count towards the harvest stats of players
+    "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP'" //I Highly recommend leaving strider in ths list.
+  ],
+  "WildDinosKillIgnoreList": [ //Dinos in this list will not count towards wild dino kills
+    "Blueprint'/Game/Genesis/Dinos/Swarms/InsectSwarmChar_BP.InsectSwarmChar_BP'",
+    "Coel_Character_BP",
+    "Salmon_Character_BP",
+    "Dragonfly_Character_BP",
+    "FlyingAnt_Character_BP",
+    "Bee_Character_BP",
+    "Ant_Character_BP"
+  ],
+  "KillingMinimumLevelIngoreList": [ //Dinos on this list will bypass the KillingMinimumLevel restriction
+    "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/Iceworm/Iceworm_Queen_Character_BP.Iceworm_Queen_Character_BP'",
+    "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/JacksonL/LavaGolem/LavaGolem_Character_BP.LavaGolem_Character_BP'"
+  ],
+  "TamingMinimumLevelIngoreList": [ //Dinos on this list will bypass the TamingMinimumLevel restriction
+
+  ],
+  "Quests": [
+    {
+      "ID": 1000, //Must be Unique in Quests and not be changed once loaded on the server
+      "Name": "Hunter 1", //Display Name
+      "Description": "Kill {RexKills}/10 Rex and {BulbdogKills}/10 Bulbdog", //Description so player knows what to do.
+      "PriorQuestID": 0, //Used to make quest chains (0=first quest in a chain)
+      "PermissionGroup": "Default", //Permission Group required to be assigned this quest
+      "Requirements": { //What the player must do to complete the quest should match description
+        "RexKills": 10, //RexKills is the name from the custom tracking section this must match something that is being tracked to the database
+        "BulbdogKills": 10 //BulbdogKills is the name from the custom tracking section this must match something that is being tracked to the database
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true, //Prevent giving the same reward twice
+        "MinRewards": 1, //Minimum Rewards to generate
+        "MaxRewards": 3, //Maximum Rewards to generate
+        "Items": [ //Possible Item rewards chosen randomly between MinRewards and MaxRewards
+          { //Gives Item(s) (0 or more of this type)
+            "Type": "item",
+            "Amount": 1,
+            "MinQuality": 0,
+            "MaxQuality": 0,
+            "ForceBlueprint": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike'"
+          },
+          { //Gives Item(s) (0 or more of this type)
+            "Type": "item",
+            "Amount": 1,
+            "MinQuality": 0,
+            "MaxQuality": 4,
+            "ForceBlueprint": false,
+            "Blueprint": "RandomItemRewards:Tier1" //Selects a random item from the RandomItemRewards Tier1 list
+          },
+          { //Gives Item(s) (0 or more of this type)
+            "Type": "item",
+            "MinAmount": 500, // Min reward amount
+            "MaxAmount": 1000, // Max reward amount
+            "ForceBlueprint": false,
+            "Blueprint": "RandomStackableItemRewards:Tier1" //Selects a random item from the RandomStackableItemRewards Tier1 list
+          },
+          { //Gives a dino (0 or more of this type)
+            "Type": "dino",
+            "MinLevel": 100,
+            "MaxLevel": 150,
+            "Neutered": false,
+            "Blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'"
+          },
+          { //Gives a dino (0 or more of this type)
+            "Type": "dino",
+            "MinLevel": 100,
+            "MaxLevel": 150,
+            "Neutered": false,
+            "Blueprint": "RandomDinoRewards:Tier1" //Selects a random dino from the RandomDinoRewards Tier1 list
+          },
+          { //Gives Player Experience (0 or 1 of this type)
+            "Type": "experience",
+            "Amount": 10000.0
+          },
+          { //Gives Ark Shop points (0 or 1 of this type)
+            "Type": "points",
+            "Amount": 1000
+          },
+          { //Gives custom event engram unlocks (0 or more of this type)
+            "Type": "engram",
+            "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Tek.PrimalItemStructure_Bed_Tek'"
+          },
+          { //Gives a plugin command (0 or more of this type) can use {eos_id}, {eosid}, {playerid} in commands
+            "Name": "Give Points",
+            "Type": "command",
+            "Command": "arkshop.addpoints {eosid} 1000"
+          },
+          { //Advanced Feature: Will send an HTTP POST to the url in the command
+            "Type": "httppost",
+            "Headers": [ //Optional headers to send with the request
+              "Accept: application/json",
+              "Authorization: Bearer <TOKEN HERE>"
+            ],
+            "Command": "http://www.someurl.com/eosid={eosid}&playerid={playerid}&variable=value" //Advanced feature that requires you to have special handling in place to use. //Valid tokens are {eosid} and {playerid}
+          }
+        ]
+      }
+    },
+    {
+      "ID": 1001,
+      "Name": "Hunter 2",
+      "Description": "Kill {RexKills}/20 Rex, {BulbdogKills}/20 Bulbdog and play {MinutesPlayed}/1000 minutes",
+      "PriorQuestID": 1000,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "RexKills": 20,
+        "BulbdogKills": 20,
+        "MinutesPlayed": 1000
+      },
+      "Rewards": {
+        "UseGenericRewards": true //Setting the reward section like this will generate rewards using the GenericRewards instead (do not use this if you want specific rewards for this quest)
+      }
+    },
+    {
+      "ID": 2000,
+      "Name": "Master Tamer 1",
+      "Description": "Tame {RexTame}/10 Rex and {BulbdogTame}/10 Bulbdog",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "RexTame": 10,
+        "BulbdogTame": 10
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 3000,
+      "Name": "Bounty Hunter 1",
+      "Description": "Kill {PlayerKills}/10 players",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "PlayerKills": 10
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 4000,
+      "Name": "Element Fiend 1",
+      "Description": "Harvest {Element}/1000 Element",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "Element": 1000
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 5000,
+      "Name": "I like turtles 1",
+      "Description": "Tame {CarbonemysTame}/25 Carbonemys",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "CarbonemysTame": 25
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 5001,
+      "Name": "I like turtles 2",
+      "Description": "Tame {CarbonemysTame}/50 Carbonemys",
+      "PriorQuestID": 5000,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "CarbonemysTame": 50
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 6000,
+      "Name": "Meat and Berries 1",
+      "Description": "Collect {RawMeat}/100,000 Raw Meat and {Berries}/500,000 Berries",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "RawMeat": 100000,
+        "Berries": 500000
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 7000,
+      "Name": "Legendary OSD Hunter 1",
+      "Description": "Complete {PurpleOSDWaves}/8 Purple OSD Waves",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "PurpleOSDWaves": 8
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 8000,
+      "Name": "Master Baiter",
+      "Description": "Catch {FishCaught}/100 fish with a fishing rod!",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "FishCaught": 100
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 9000,
+      "Name": "Beginner Crafter 1",
+      "Description": "Craft {Hatchet}/1 Hatchet",
+      "PriorQuestID": 0,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "Hatchet": 1
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 9001,
+      "Name": "Beginner Crafter 2",
+      "Description": "Craft {Pick}/1 Pick",
+      "PriorQuestID": 9000,
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "Pick": 1
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    }
+  ],
+  "DailyQuests": [ //Sames as Quests except they should be something that can be completed daily. 1 will be assigned to the player randomly
+    {
+      "ID": 1000, //Must be unique in DailyQuests and not be changed once loaded on the server
+      "Name": "Daily Hunter",
+      "Description": "Kill {WildDinoKills}/100 wild dinos",
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "WildDinoKills": 100
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 1001, //Must be unique in DailyQuests and not be changed once loaded on the server
+      "Name": "Daily Hunter VIP",
+      "Description": "Kill {WildDinoKills}/50 wild dinos",
+      "PermissionGroup": "VIP",
+      "Requirements": {
+        "WildDinoKills": 50
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    }
+  ],
+  "WeeklyQuests": [ //Sames as Quests except they should be something that can be completed in a week. 1 will be assigned to the player randomly
+    {
+      "ID": 1000, //Must be unique in WeeklyQuests and not be changed once loaded on the server
+      "Name": "Weekly Hunter",
+      "Description": "Kill {WildDinoKills}/1000 wild dinos and {BossKills}/1 boss",
+      "PermissionGroup": "Default",
+      "Requirements": {
+        "WildDinoKills": 1000,
+        "BossKills": 1
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    },
+    {
+      "ID": 1001, //Must be unique in WeeklyQuests and not be changed once loaded on the server
+      "Name": "Weekly Hunter VIP",
+      "Description": "Kill {WildDinoKills}/500 wild dinos and {BossKills}/1 boss",
+      "PermissionGroup": "VIP",
+      "Requirements": {
+        "WildDinoKills": 500,
+        "BossKills": 1
+      },
+      "Rewards": {
+        "PreventDuplicateRewards": true,
+        "MinRewards": 1,
+        "MaxRewards": 3,
+        "Items": [
+          //SEE QUEST 1000 FOR ALL REWARD OPTIONS
+        ]
+      }
+    }
+  ],
+  "NameMapping": { //Change how the database values are displayed in messages (left side is database column, right side is what you want it to say in messages)
+    "PlayerKills": "Killed Players",
+    "WildDinoKills": "Wild Dinos Killed",
+    "MinutesPlayed": "Minutes Played",
+    "TotalDeaths": "Total Deaths",
+    "TribeScore": "Tribe Score" //This is a special case for the Tribe Leaderboard
+  },
+  "DynamicStats": "MinutesPlayed,TotalDeaths,PlayerKills", //Database column name you want to include in the /stats message
+  "TribeScoreFormula": "((SUM(PlayerKills)*3) - SUM(TotalDeaths) + (SUM(MinutesPlayed)/60)) / COUNT(*)", //Formula to calculate the Tribe Score
+  //You can use any of the database column names in the formula and the formula must return a single value
+  //COUNT(*) is the number of players in the tribe
+  //SUM() is the total of the stat column for all players in the tribe
+  //You can use +, -, *, / in the formula
+  //You can use () to group parts of the formula
+  //The above example formula is "((Total Player Kills * 3) - Total Deaths + (Total Minutes Played / 60)) / Number of Players"
+  "UI": { //UI settings
+    "InformationBoxTitle": "General Information", //Title of the Information Box
+    "InformationBoxContent": "Put whatever you want in here.\n\nThis will appear with a blank line between the first line.", //Content of the Information Box
+    "IncludeTimedQuestsInActive": false, //true = include the Daily/Weekly Quests in the active list, false = exclude the Daily/Weekly Quests from the active list (default)
+    "PlayerStatsTable": "LethalQuestsAscended_stats", //Exact Table name from the database you want to display stats from
+    "ShowPlayerStats": "TotalDeaths,TamedDinos,WildDinoKills,QuestsCompleted,DailyQuestsCompleted,WeeklyQuestsCompleted,TotalQuestsCompleted,RareDinoKills,RareTamedDinos,SuperRareDinoKills", //Stats to show on the Overveiw screen (formatting of the string is important and make sure the fields exist in the table you chose to use)
+    "PlayerTrackersTable": "LethalQuestsAscended_stats", //Exact Table name from the database you want to display stats from
+    "PlayerLeaderboardTable": "LethalQuestsAscended_stats", //Exact Table name from the database you want to display stats for the Player Leaderboard
+    "PlayerLeaderboardStats": "TotalDeaths,TamedDinos,WildDinoKills,QuestsCompleted,DailyQuestsCompleted,WeeklyQuestsCompleted,TotalQuestsCompleted,RareDinoKills,RareTamedDinos,SuperRareDinoKills", //Stats to show on the Player Leaderboard (formatting of the string is important and make sure the fields exist in the table you chose to use)
+    "TribeLeaderboardTable": "LethalQuestsAscended_stats", //Exact Table name from the database you want to display stats for the Tribe Leaderboard
+    "TribeLeaderboardStats": "TotalDeaths,TamedDinos,WildDinoKills,QuestsCompleted,DailyQuestsCompleted,WeeklyQuestsCompleted,TotalQuestsCompleted,RareDinoKills,RareTamedDinos,SuperRareDinoKills" //Stats to show on the Tribe Leaderboard (formatting of the string is important and make sure the fields exist in the table you chose to use)
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Lethal Quests"
+    },
+    "ExpReward": {
+      "Message": "You received {} experience for completing a quest!"
+    },
+    "ItemReward": {
+      "Message": "You received an Item(s) for completing a quest!"
+    },
+    "CommandReward": {
+      "Message": "'{}' command was given for completing a quest!"
+    },
+    "CryoReward": {
+      "Message": "Reward Dino"
+    },
+    "CryoRewardDescription": {
+      "Message": "Let the dino out to see what you got!"
+    },
+    "KilledByPlayer": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} from {WeaponName} meters with a {Distance}",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue",
+      "BackgroundColor": "Black", //Background color of the message
+      "BackgroundTransparent": true //true will make the background transparency 50%
+    },
+    "KilledByPlayerHeadshot": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} from {WeaponName} meters with a {Distance} headshot",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByPlayerDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with {WeaponName} from {Distance} meters!\n```"
+    },
+    "KilledByPlayerHeadshotDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with {WeaponName} from {Distance} meters headshot!\n```"
+    },
+    "KilledByDino": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with a {KillerDinoName}!",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByDinoHeadshot": {
+      "Message": "Lvl-{KillerLevel} {KillerName} has killed Lvl-{VictimLevel} {VictimName} with a {KillerDinoName} headshot!",
+      "NotificationType": "Top",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Blue"
+    },
+    "KilledByDinoDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with a {KillerDinoName}!\n```"
+    },
+    "KilledByDinoHeadshotDiscord": {
+      "Message": "```prolog\nLvl {KillerLevel} {KillerName} has killed Lvl {VictimLevel} {VictimName} with a {KillerDinoName} headshot!\n```"
+    },
+    "KillerNoHonor": {
+      "Message": "No kill recorded, you are honorless!",
+      "NotificationType": "Chat",
+      "Scale": 1.8,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "VictimNoHonor": {
+      "Message": "Target is honorless and worth no kill credit!",
+      "NotificationType": "Chat",
+      "Scale": 1.8,
+      "DisplayTime": 5.0,
+      "Color": "Blue"
+    },
+    "QuestCompleted": {
+      "Message": "{0} completed the quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "DailyQuestCompleted": {
+      "Message": "{0} completed the daily quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "WeeklyQuestCompleted": {
+      "Message": "{0} completed the weekly quest '{1}'",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "UnclaimedRewards": {
+      "Message": "You have unclaimed rewards use {} to claim them!",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "ClaimedRewards": {
+      "Message": "You have claimed rewards from '{}'!",
+      "Scale": 1.8,
+      "DisplayTime": 15.0,
+      "Color": "Blue"
+    },
+    "QuestDetail": {
+      "Message": "{}",
+      "Scale": 1.8,
+      "DisplayTime": 10.0,
+      "Color": "Green"
+    },
+    "Stats": {
+      "Message": "=====Player Stats=====\n{}"
+    },
+    "Quests": {
+      "Message": "=====Current Quests=====\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Red"
+    },
+    "QuestsCompleted": {
+      "Message": "=====Completed Quests=====\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Green"
+    },
+    "DailyQuest": {
+      "Message": "=====Daily Quest===== (Resets in {})\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Yellow"
+    },
+    "WeeklyQuest": {
+      "Message": "=====Weekly Quest===== (Resets in {})\n{}\n",
+      "Scale": 1.8,
+      "DisplayTime": 25.0,
+      "Color": "Blue"
+    },
+    "DoesNotHaveQuest": {
+      "Message": "You do not have access to this quest."
+    },
+    "LinkDiscord": {
+      "Message": "Type the following in our discord\n/LQ register {}"
+    }
+  },
+  "Mysql": {
+    "MysqlHost": "localhost",
+    "MysqlUser": "sqlusername",
+    "MysqlPass": "sqlpassword",
+    "MysqlDB": "mydatabasename",
+    "MysqlPort": 3306
+  }
+}

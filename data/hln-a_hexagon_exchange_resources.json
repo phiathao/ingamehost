@@ -1,0 +1,320 @@
+[
+  {
+    "Item": "Absorbent Substrate",
+    "Quantity": 1,
+    "Hexagon": 1500,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent'"
+  },
+  {
+    "Item": "Aggeravic Mushroom",
+    "Quantity": 50,
+    "Hexagon": 46,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemResource_CommonMushroom.PrimalItemResource_CommonMushroom'"
+  },
+  {
+    "Item": "Amarberry",
+    "Quantity": 50,
+    "Hexagon": 10,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'"
+  },
+  {
+    "Item": "Ammonite Bile",
+    "Quantity": 1,
+    "Hexagon": 350,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood'"
+  },
+  {
+    "Item": "Aquatic Mushroom",
+    "Quantity": 20,
+    "Hexagon": 95,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Aquatic.PrimalItemConsumable_Mushroom_Aquatic'"
+  },
+  {
+    "Item": "Ascerbic Mushroom",
+    "Quantity": 20,
+    "Hexagon": 95,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Ascerbic.PrimalItemConsumable_Mushroom_Ascerbic'"
+  },
+  {
+    "Item": "Auric Mushroom",
+    "Quantity": 20,
+    "Hexagon": 105,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric'"
+  },
+  {
+    "Item": "Azulberry",
+    "Quantity": 50,
+    "Hexagon": 10,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'"
+  },
+  {
+    "Item": "Black Pearl",
+    "Quantity": 1,
+    "Hexagon": 300,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'"
+  },
+  {
+    "Item": "Blue Gem",
+    "Quantity": 20,
+    "Hexagon": 95,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'"
+  },
+  {
+    "Item": "Cactus Sap",
+    "Quantity": 50,
+    "Hexagon": 24,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'"
+  },
+  {
+    "Item": "Cementing Paste",
+    "Quantity": 25,
+    "Hexagon": 75,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'"
+  },
+  {
+    "Item": "Charcoal",
+    "Quantity": 25,
+    "Hexagon": 30,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Charcoal.PrimalItemResource_Charcoal'"
+  },
+  {
+    "Item": "Chitin",
+    "Quantity": 25,
+    "Hexagon": 60,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin'"
+  },
+  {
+    "Item": "Clay",
+    "Quantity": 50,
+    "Hexagon": 45,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'"
+  },
+  {
+    "Item": "Crystal",
+    "Quantity": 10,
+    "Hexagon": 115,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal'"
+  },
+  {
+    "Item": "Electronics",
+    "Quantity": 5,
+    "Hexagon": 700,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'"
+  },
+  {
+    "Item": "Element",
+    "Quantity": 1,
+    "Hexagon": 2000,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"
+  },
+  {
+    "Item": "Fiber",
+    "Quantity": 50,
+    "Hexagon": 12,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers'"
+  },
+  {
+    "Item": "Flint",
+    "Quantity": 50,
+    "Hexagon": 18,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Flint.PrimalItemResource_Flint'"
+  },
+  {
+    "Item": "Gasoline",
+    "Quantity": 20,
+    "Hexagon": 175,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline'"
+  },
+  {
+    "Item": "Green Gem",
+    "Quantity": 25,
+    "Hexagon": 55,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'"
+  },
+  {
+    "Item": "Gunpowder",
+    "Quantity": 20,
+    "Hexagon": 150,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gunpowder.PrimalItemResource_Gunpowder'"
+  },
+  {
+    "Item": "Hide",
+    "Quantity": 50,
+    "Hexagon": 60,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'"
+  },
+  {
+    "Item": "Keratin",
+    "Quantity": 25,
+    "Hexagon": 60,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin'"
+  },
+  {
+    "Item": "Mejoberry",
+    "Quantity": 50,
+    "Hexagon": 18,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'"
+  },
+  {
+    "Item": "Metal",
+    "Quantity": 10,
+    "Hexagon": 150,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal'"
+  },
+  {
+    "Item": "Metal Ingot",
+    "Quantity": 5,
+    "Hexagon": 195,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot'"
+  },
+  {
+    "Item": "Narcoberry",
+    "Quantity": 20,
+    "Hexagon": 80,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry'"
+  },
+  {
+    "Item": "Obsidian",
+    "Quantity": 5,
+    "Hexagon": 180,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian'"
+  },
+  {
+    "Item": "Oil",
+    "Quantity": 20,
+    "Hexagon": 120,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil'"
+  },
+  {
+    "Item": "Organic Polymer",
+    "Quantity": 5,
+    "Hexagon": 500,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'"
+  },
+  {
+    "Item": "Pelt",
+    "Quantity": 25,
+    "Hexagon": 65,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt'"
+  },
+  {
+    "Item": "Plant Species X Seed",
+    "Quantity": 1,
+    "Hexagon": 1000,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_DefensePlant.PrimalItemConsumable_Seed_DefensePlant'"
+  },
+  {
+    "Item": "Plant Species Y Seed",
+    "Quantity": 1,
+    "Hexagon": 1000,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'"
+  },
+  {
+    "Item": "Plant Species Z Seed",
+    "Quantity": 1,
+    "Hexagon": 1000,
+    "Blueprint": "Blueprint'/Game/Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ.PrimalItemConsumable_Seed_PlantSpeciesZ'"
+  },
+  {
+    "Item": "Propellant",
+    "Quantity": 5,
+    "Hexagon": 190,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Propellant.PrimalItemResource_Propellant'"
+  },
+  {
+    "Item": "Rare Flower",
+    "Quantity": 5,
+    "Hexagon": 120,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'"
+  },
+  {
+    "Item": "Rare Mushroom",
+    "Quantity": 5,
+    "Hexagon": 120,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'"
+  },
+  {
+    "Item": "Raw Meat",
+    "Quantity": 20,
+    "Hexagon": 25,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat'"
+  },
+  {
+    "Item": "Raw Salt",
+    "Quantity": 50,
+    "Hexagon": 65,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt'"
+  },
+  {
+    "Item": "Red Gem",
+    "Quantity": 10,
+    "Hexagon": 125,
+    "Blueprint": "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'"
+  },
+  {
+    "Item": "Sand",
+    "Quantity": 50,
+    "Hexagon": 28,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'"
+  },
+  {
+    "Item": "Sap",
+    "Quantity": 5,
+    "Hexagon": 150,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'"
+  },
+  {
+    "Item": "Silica Pearls",
+    "Quantity": 5,
+    "Hexagon": 125,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'"
+  },
+  {
+    "Item": "Silk",
+    "Quantity": 50,
+    "Hexagon": 48,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk'"
+  },
+  {
+    "Item": "Sparkpowder",
+    "Quantity": 50,
+    "Hexagon": 50,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sparkpowder.PrimalItemResource_Sparkpowder'"
+  },
+  {
+    "Item": "Stimberry",
+    "Quantity": 20,
+    "Hexagon": 80,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
+  },
+  {
+    "Item": "Stone",
+    "Quantity": 50,
+    "Hexagon": 40,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone'"
+  },
+  {
+    "Item": "Sulfur",
+    "Quantity": 5,
+    "Hexagon": 125,
+    "Blueprint": "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'"
+  },
+  {
+    "Item": "Thatch",
+    "Quantity": 50,
+    "Hexagon": 20,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch'"
+  },
+  {
+    "Item": "Tintoberry",
+    "Quantity": 50,
+    "Hexagon": 10,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'"
+  },
+  {
+    "Item": "Wood",
+    "Quantity": 50,
+    "Hexagon": 25,
+    "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wood.PrimalItemResource_Wood'"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "version": "2",
+  "version": "3",
   "DisplayCommandLog": true,
   "PlayerJoin": {
     "Enabled": false,
@@ -11,49 +11,9 @@
   },
   "Commands": [
     {
-      "Command": "serverchat test message every 2 minutes",
-      "Type": "Cron",
-      "Schedule": "0 */2 * * * *"
-    },
-    {
-      "Command": "serverchat test message on Sunday's 2:41pm!",
-      "Type": "Cron",
-      "Schedule": "0 41 14 * * 0"
-    },
-    {
-      "Command": "serverchat test message at 2:41pm!",
-      "Type": "Exact",
-      "Schedule": "14:41:00"
-    },
-    {
-      "Command": "serverchat test message at 3:10:02pm!",
-      "Type": "Exact",
-      "Schedule": "15:10:02"
-    },
-    {
-      "Command": "serverchat test message at 7:40am!",
-      "Type": "Exact",
-      "Schedule": "7:40:00"
-    },
-    {
-      "Command": "broadcast hello world every 1 minute!",
+      "Command": "ServerEventsAscended.startrandom",
       "Type": "Minutes",
-      "Schedule": 1
-    },
-    {
-      "Command": "broadcast hello world every 1 hour!",
-      "Type": "Hours",
-      "Schedule": 1
-    },
-    {
-      "Command": "DestroyAll \"BeeHive_C\" 1",
-      "Type": "Minutes",
-      "Schedule": 5
-    },
-    {
-      "Command": "serverchat test message every 3 minutes",
-      "Type": "Minutes",
-      "Schedule": 3
+      "Schedule": 60
     },
     {
       "Command": "destroyall \"droppeditemgeneric_fertilizedegg_nophysicsdeinonychus_c\" 0",
@@ -70,31 +30,10 @@
     {
       "Command": "destroyall \"droppeditemgeneric_fertilizedegg_rockdrake_nophysics_c\" 0",
       "Type": "Startup"
-    },
-    {
-      "Command": "notification",
-      "Type": "Minutes",
-      "Schedule": 3,
-      "Message": "This appears every 3 minutes enjoy!",
-      "Color": "Green",
-      "DisplayTime": 10.0,
-      "DisplayScale": 1.3
-    },
-    {
-      "Command": "notification",
-      "Type": "Cron",
-      "Schedule": "0 * * * * *",
-      "Message": "Message",
-      "Color": "Green",
-      "DisplayTime": 30.0,
-      "DisplayScale": 1
     }
   ],
   "UseManualCredentials": false,
   "ip": "",
   "port": 0,
-  "password": "",
-  "ip_Svartalfheim_WP": "192.1.1.222",
-  "port_Svartalfheim_WP": 7777,
-  "password_Svartalfheim_WP": ""
+  "password": ""
 }
