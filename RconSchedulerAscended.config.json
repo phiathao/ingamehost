@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": "2",
   "DisplayCommandLog": true,
   "PlayerJoin": {
     "Enabled": false,
@@ -93,5 +93,8 @@
   "UseManualCredentials": false,
   "ip": "",
   "port": 0,
-  "password": ""
+  "password": "",
+  "ip_Svartalfheim_WP": "192.1.1.222",
+  "port_Svartalfheim_WP": 7777,
+  "password_Svartalfheim_WP": ""
 }

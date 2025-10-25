@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": "2",
   "Mysql": {
     "UseMysql": true,
     "MysqlHost": "localhost",
@@ -15,16 +15,16 @@
       "URL": ""
     },
     "TimedPointsReward": {
-      "Enabled": true,
-      "Interval": 5,
+      "Enabled": false,
+      "Interval": 100,
       "StackRewards": false,
       "AlwaysSendNotifications":  false,
       "Groups": {
         "Default": {
-          "Amount": 5
+          "Amount": 0
         },
         "Premiums": {
-          "Amount": 15
+          "Amount": 0
         }
       }
     },
