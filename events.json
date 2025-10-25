@@ -25,7 +25,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Blue",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -39,7 +39,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -93,7 +96,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -107,7 +110,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -161,7 +167,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Cyan",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -175,7 +181,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -229,7 +238,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Red",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -243,7 +252,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -297,7 +309,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Orange",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -311,7 +323,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -365,7 +380,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Yellow",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -379,7 +394,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -433,7 +451,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Purple",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -447,7 +465,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -501,7 +522,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Magenta",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -515,7 +536,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -569,7 +593,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Pink",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -583,7 +607,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -637,7 +664,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "White",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -651,7 +678,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -705,7 +735,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Green",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -719,7 +749,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -773,7 +806,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Gold",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -787,7 +820,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -841,7 +877,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Orange",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -855,7 +891,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -909,7 +948,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Yellow",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -923,7 +962,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
@@ -977,7 +1019,7 @@
         "PossibleBuffs": []
       },
       "Arena": {
-        "Size": 15000,
+        "Size": 25000,
         "Color": "Brown",
         "TetherBoss": true,
         "PreventBossTetherHeal": false,
@@ -991,7 +1033,10 @@
         "EnteringRequiresPermission": [
           "Default"
         ],
-        "ForcedExitLocation": "0 0 0"
+        "ForcedExitLocation": "0 0 0",
+        "HideArena": false,
+        "PlayerLimit": 10,
+        "DinoLimit": 20
       },
       "Reward": {
         "StaticLoot": [],
