@@ -182,6 +182,215 @@
           "Blueprint": "Blueprint'/Game/AwesomeSpyglass/PrimalItem_AwesomeSpyglass.PrimalItem_AwesomeSpyglass'"
         }
       ]
+    },
+    "tekLight": {
+      "DefaultAmount": 0,
+      "Price": 2000,
+      "Description": "Engram TEK Light",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekLight.PrimalItemStructure_TekLight'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "BehemothTekGate": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Behemoth Tek Gate",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "BehemothTekGateway": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Behemoth Tek Gateway",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekCloningChamber": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Cloning Chamber",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "MegalodonTekSaddle": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Megalodon Tek Saddle",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TapejaraTekSaddle": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tapejara Tek Saddle",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekChestpiece": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Chestpiece",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekDedicatedStorage": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Dedicated Storage",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Storage/PrimalItemStructure_TekDedicatedStorage.PrimalItemStructure_TekDedicatedStorage'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekFenceSupport": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Fence Support",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Walls/PrimalItemStructure_TekFenceSupport.PrimalItemStructure_TekFenceSupport'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekForcefield": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Forcefield",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Shield/PrimalItemStructure_ShieldGenerator.PrimalItemStructure_ShieldGenerator'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekLeggings": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Leggings",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekReplicator": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Replicator",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekStairs": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Stairs",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stairs/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekTransmitter": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Transmitter",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "VacuumCompartment": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Vacuum Compartment",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/UnderWaterBase/PrimalItemStructure_UnderwaterBase.PrimalItemStructure_UnderwaterBase'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "SmallTekTeleporter": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Small Tek Teleporter",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Small.PrimalItemStructure_TekTeleporter_Small'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "MediumTekTeleporter": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Medium Tek Teleporter",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Medium.PrimalItemStructure_TekTeleporter_Medium'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "LargeTekTeleporter": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Large Tek Teleporter",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Large.PrimalItemStructure_TekTeleporter_Large'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
+    },
+    "TekBehemothCellarDoor": {
+      "DefaultAmount": 0,
+      "Price": 10000,
+      "Description": "Engram Tek Behemoth Cellar Door",
+      "Commands": [
+        {
+          "Command": "cheat UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGate_Large_Door.PrimalItemStructure_TekGate_Large_Door'\"",
+          "ExecuteAsAdmin": true
+        }
+      ]
     }
   },
   "ShopItems": {
@@ -610,196 +819,6 @@
           "ForceBlueprint": false,
           "Amount": 1,
           "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'"
-        }
-      ]
-    },
-    "tekLight": {
-      "Type": "unlockengram",
-      "Description": "Engram TEK Light",
-      "Price": 2000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekLight.PrimalItemStructure_TekLight'"
-        }
-      ]
-    },
-    "BehemothTekGate": {
-      "Type": "unlockengram",
-      "Description": "Engram Behemoth Tek Gate",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large'"
-        }
-      ]
-    },
-    "BehemothTekGateway": {
-      "Type": "unlockengram",
-      "Description": "Engram Behemoth Tek Gateway",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large'"
-        }
-      ]
-    },
-    "TekCloningChamber": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Cloning Chamber",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber'"
-        }
-      ]
-    },
-    "MegalodonTekSaddle": {
-      "Type": "unlockengram",
-      "Description": "Engram Megalodon Tek Saddle",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'"
-        }
-      ]
-    },
-    "TapejaraTekSaddle": {
-      "Type": "unlockengram",
-      "Description": "Engram Tapejara Tek Saddle",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'"
-        }
-      ]
-    },
-    "TekChestpiece": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Chestpiece",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt'"
-        }
-      ]
-    },
-    "TekDedicatedStorage": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Dedicated Storage",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Storage/PrimalItemStructure_TekDedicatedStorage.PrimalItemStructure_TekDedicatedStorage'"
-        }
-      ]
-    },
-    "TekFenceSupport": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Fence Support",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Walls/PrimalItemStructure_TekFenceSupport.PrimalItemStructure_TekFenceSupport'"
-        }
-      ]
-    },
-    "TekForcefield": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Forcefield",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Shield/PrimalItemStructure_ShieldGenerator.PrimalItemStructure_ShieldGenerator'"
-        }
-      ]
-    },
-    "TekLeggings": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Leggings",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants'"
-        }
-      ]
-    },
-    "TekReplicator": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Replicator",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'"
-        }
-      ]
-    },
-    "TekStairs": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Stairs",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stairs/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'"
-        }
-      ]
-    },
-    "TekTransmitter": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Transmitter",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'"
-        }
-      ]
-    },
-    "VacuumCompartment": {
-      "Type": "unlockengram",
-      "Description": "Engram Vacuum Compartment",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/UnderWaterBase/PrimalItemStructure_UnderwaterBase.PrimalItemStructure_UnderwaterBase'"
-        }
-      ]
-    },
-    "SmallTekTeleporter": {
-      "Type": "unlockengram",
-      "Description": "Engram Small Tek Teleporter",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Small.PrimalItemStructure_TekTeleporter_Small'"
-        }
-      ]
-    },
-    "MediumTekTeleporter": {
-      "Type": "unlockengram",
-      "Description": "Engram Medium Tek Teleporter",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Medium.PrimalItemStructure_TekTeleporter_Medium'"
-        }
-      ]
-    },
-    "LargeTekTeleporter": {
-      "Type": "unlockengram",
-      "Description": "Engram Large Tek Teleporter",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Teleporter/PrimalItemStructure_TekTeleporter_Large.PrimalItemStructure_TekTeleporter_Large'"
-        }
-      ]
-    },
-    "TekBehemothCellarDoor": {
-      "Type": "unlockengram",
-      "Description": "Engram Tek Behemoth Cellar Door",
-      "Price": 10000,
-      "Items": [
-        {
-          "Blueprint": "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGate_Large_Door.PrimalItemStructure_TekGate_Large_Door'"
         }
       ]
     }

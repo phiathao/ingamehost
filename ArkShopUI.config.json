@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "UiKey": "F2",
-  "HideBuffIcon": false,
+  "UiKey": "F6",
+  "HideBuffIcon": true,
   "HideMultiUse": false
 }
